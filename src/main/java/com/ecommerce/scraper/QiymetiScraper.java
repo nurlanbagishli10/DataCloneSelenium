@@ -1,5 +1,7 @@
 package com.ecommerce.scraper;
 
+import com.ecommerce.scraper.mapper.DatabaseMapper;
+import com.ecommerce.scraper.mapper.DatabaseOutput;
 import com.ecommerce.scraper.model.Product;
 import com.ecommerce.scraper.pages.ProductDetailPage;
 import com.ecommerce.scraper.pages.ProductListPage;
@@ -9,7 +11,9 @@ import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class QiymetiScraper {
@@ -21,11 +25,13 @@ public class QiymetiScraper {
 
     private final WebDriver driver;
     private final JsonExporter jsonExporter;
+    private final DatabaseMapper databaseMapper;
     private final List<Product> allProducts;
 
     public QiymetiScraper(boolean headless) {
         this.driver = WebDriverFactory.createChromeDriver(headless);
         this.jsonExporter = new JsonExporter();
+        this.databaseMapper = new DatabaseMapper();
         this.allProducts = new ArrayList<>();
     }
 
@@ -113,10 +119,18 @@ public class QiymetiScraper {
         logger.info("📊 Scraping tamamlandı");
         logger.info("Toplam məhsul sayı: {}", allProducts.size());
 
-        // JSON-a yaz
+        // Export JSON files
         if (!allProducts.isEmpty()) {
-            String outputFile = JsonExporter.generateOutputFileName();
-            jsonExporter.exportToJson(allProducts, outputFile);
+            String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+            
+            // Export raw scraped data
+            String rawOutputFile = String.format("output/scraped_raw_%s.json", timestamp);
+            jsonExporter.exportToJson(allProducts, rawOutputFile);
+
+            // Export database formatted data
+            String dbOutputFile = String.format("output/database_import_%s.json", timestamp);
+            DatabaseOutput dbOutput = databaseMapper.mapToDatabase(allProducts);
+            jsonExporter.exportDatabaseOutput(dbOutput, dbOutputFile);
         }
 
         // WebDriver-ı bağla
