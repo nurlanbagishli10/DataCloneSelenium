@@ -17,7 +17,7 @@ public class QiymetiScraper {
     private static final Logger logger = LoggerFactory.getLogger(QiymetiScraper.class);
 
     private static final String BASE_URL = "https://qiymeti.net/qiymetleri/telefon/";
-    private static final int MAX_PAGES = 16;
+    private static final int MAX_PAGES = 1;
 
     private final WebDriver driver;
     private final JsonExporter jsonExporter;

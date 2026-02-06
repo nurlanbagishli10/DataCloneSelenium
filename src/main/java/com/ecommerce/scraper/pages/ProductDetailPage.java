@@ -23,19 +23,11 @@ public class ProductDetailPage {
     // Locators
     private static final By PRODUCT_TITLE = By.cssSelector("h2.heading");
 
-    private static final By STORAGE_FILTER =
-            By.xpath("//div[@class='filter']//span[@class='text' and contains(text(), 'Daxili yaddaş')]");
-
     private static final By STORAGE_OPTIONS =
             By.xpath("//div[@class='filter']//span[@class='option' and @data-field-key='yaddas']");
 
-    private static final By COLOR_FILTER =
-            By.xpath("//div[@class='filter']//span[@class='text' and contains(text(), 'Rəng')]");
-
     private static final By COLOR_OPTIONS =
             By.xpath("//div[@class='filter']//span[@class='option' and @data-field-key='color']");
-
-    private static final By PRICE_LIST = By.cssSelector("ul.price-list");
 
     private static final By FIRST_PRICE_ITEM =
             By.cssSelector("ul.price-list li.price-item:first-of-type");
@@ -67,7 +59,7 @@ public class ProductDetailPage {
         product.setSpecifications(specs);
 
         // Variantlar
-        List<ProductVariant> variants = extractAllVariants();
+        List<ProductVariant> variants = extractAllVariantCombinations();
         product.setVariants(variants);
 
         logger.info("Məhsul data toplandı: {} - {} variant",
@@ -88,7 +80,6 @@ public class ProductDetailPage {
             String fullTitle = titleElement.getText().trim();
             product.setTitle(fullTitle);
 
-            // Brand - Prosessordan və ya title-dan çıxar
             String brand = extractBrand(fullTitle);
             product.setBrand(brand);
 
@@ -104,7 +95,6 @@ public class ProductDetailPage {
      */
     private String extractBrand(String fullTitle) {
         try {
-            // Əvvəlcə prosessordan yoxla
             WebElement processorElement = driver.findElement(PROCESSOR_FIELD);
             String processorText = processorElement.getText().toLowerCase();
 
@@ -113,14 +103,12 @@ public class ProductDetailPage {
             } else if (processorText.contains("samsung")) {
                 return "Samsung";
             } else if (processorText.contains("snapdragon") || processorText.contains("qualcomm")) {
-                // Əgər Snapdragon varsa, title-dan brand-ı tap
                 return extractBrandFromTitle(fullTitle);
             }
         } catch (Exception e) {
             logger.debug("Prosessordan brand tapılmadı, title-dan çıxarılır");
         }
 
-        // Title-dan ilk sözü götür
         return extractBrandFromTitle(fullTitle);
     }
 
@@ -137,9 +125,9 @@ public class ProductDetailPage {
     }
 
     /**
-     * Bütün variantları topla (storage + color kombinasiyaları)
+     * ✅ DÜZƏLDİLMİŞ: Bütün variantları DÜZGÜN kombinasiyalarla topla
      */
-    private List<ProductVariant> extractAllVariants() {
+    private List<ProductVariant> extractAllVariantCombinations() {
         List<ProductVariant> allVariants = new ArrayList<>();
 
         try {
@@ -152,7 +140,7 @@ public class ProductDetailPage {
             logger.info("Tapılan variantlar - Storage: {}, Color: {}",
                     storageOptions.size(), colorOptions.size());
 
-            // Əgər heç bir variant yoxdursa, sadəcə qiyməti götür
+            // Əgər heç bir variant yoxdursa
             if (storageOptions.isEmpty() && colorOptions.isEmpty()) {
                 ProductVariant variant = extractPriceData();
                 if (variant != null) {
@@ -164,12 +152,7 @@ public class ProductDetailPage {
             // Əgər yalnız storage varsa
             if (!storageOptions.isEmpty() && colorOptions.isEmpty()) {
                 for (VariantOption storage : storageOptions) {
-                    clickVariantOption(storage);
-                    ProductVariant variant = extractPriceData();
-                    if (variant != null) {
-                        variant.setStorage(storage.text);
-                        allVariants.add(variant);
-                    }
+                    clickAndExtractVariant(storage, null, allVariants);
                 }
                 return allVariants;
             }
@@ -177,33 +160,15 @@ public class ProductDetailPage {
             // Əgər yalnız color varsa
             if (storageOptions.isEmpty() && !colorOptions.isEmpty()) {
                 for (VariantOption color : colorOptions) {
-                    clickVariantOption(color);
-                    ProductVariant variant = extractPriceData();
-                    if (variant != null) {
-                        variant.setColor(color.text);
-                        allVariants.add(variant);
-                    }
+                    clickAndExtractVariant(null, color, allVariants);
                 }
                 return allVariants;
             }
 
-            // Hər iki variant varsa - bütün kombinasiyaları topla
+            // Hər iki variant varsa - bütün kombinasiyalar
             for (VariantOption storage : storageOptions) {
-                clickVariantOption(storage);
-                waitForPriceUpdate();
-
                 for (VariantOption color : colorOptions) {
-                    clickVariantOption(color);
-                    waitForPriceUpdate();
-
-                    ProductVariant variant = extractPriceData();
-                    if (variant != null) {
-                        variant.setStorage(storage.text);
-                        variant.setColor(color.text);
-                        allVariants.add(variant);
-
-                        logger.debug("Variant toplandı: {} - {}", storage.text, color.text);
-                    }
+                    clickAndExtractVariant(storage, color, allVariants);
                 }
             }
 
@@ -212,6 +177,92 @@ public class ProductDetailPage {
         }
 
         return allVariants;
+    }
+
+    /**
+     * ✅ YENİ: Variantı seç, data çək və disable et
+     */
+    private void clickAndExtractVariant(VariantOption storage,
+                                        VariantOption color,
+                                        List<ProductVariant> allVariants) {
+        try {
+            // 1. Storage seç (əgər var)
+            if (storage != null) {
+                clickVariantOption(storage);
+                waitForPriceUpdate();
+            }
+
+            // 2. Color seç (əgər var)
+            if (color != null) {
+                clickVariantOption(color);
+                waitForPriceUpdate();
+            }
+
+            // 3. Data çək
+            ProductVariant variant = extractPriceData();
+            if (variant != null) {
+                if (storage != null) {
+                    variant.setStorage(storage.text);
+                }
+                if (color != null) {
+                    variant.setColor(color.text);
+                }
+                allVariants.add(variant);
+
+                logger.info("✅ Variant toplandı: {} - {} (Qiymət: {} {})",
+                        storage != null ? storage.text : "N/A",
+                        color != null ? color.text : "N/A",
+                        variant.getPrice(),
+                        variant.getCurrency());
+            }
+
+            // 4. ✅ Seçilmiş variantları DISABLE et (X düyməsinə bas)
+            clearAllSelectedVariants();
+
+        } catch (Exception e) {
+            logger.error("Variant kombinasiya xətası: {}", e.getMessage());
+        }
+    }
+
+    /**
+     * ✅ YENİ VƏ DÜZƏLDİLMİŞ: Bütün seçilmiş variantları təmizlə
+     */
+    private void clearAllSelectedVariants() {
+        try {
+            // Seçilmiş bütün variantları tap (selected class-ı olan)
+            List<WebElement> selectedVariants = driver.findElements(
+                    By.xpath("//span[contains(@class, 'option') and contains(@class, 'selected')]")
+            );
+
+            logger.debug("{} ədəd seçilmiş variant tapıldı", selectedVariants.size());
+
+            // Hər birini təmizlə
+            for (WebElement selectedVariant : selectedVariants) {
+                try {
+                    // X düyməsini tap və klik et
+                    WebElement closeButton = selectedVariant.findElement(
+                            By.cssSelector("span.x")
+                    );
+
+                    // JavaScript ilə klik et (daha etibarlı)
+                    ((JavascriptExecutor) driver).executeScript(
+                            "arguments[0].click();", closeButton
+                    );
+
+                    String variantText = selectedVariant.getAttribute("data-spec-text");
+                    logger.debug("Variant təmizləndi: {}", variantText);
+
+                    // Qısa gözləmə
+                    Thread.sleep(200);
+
+                } catch (Exception e) {
+                    logger.debug("Variant təmizləmə xətası: {}", e.getMessage());
+                }
+            }
+
+        } catch (Exception e) {
+            logger.warn("Seçilmiş variantlar təmizlənə bilmədi: {}", e.getMessage());
+        }
     }
 
     /**
@@ -240,24 +291,38 @@ public class ProductDetailPage {
     }
 
     /**
-     * Variant option-a klik et (stale element handling ilə)
+     * ✅ DÜZƏLDİLMİŞ: Variant option-a klik et (stale element handling ilə)
      */
     private void clickVariantOption(VariantOption option) {
         int maxRetries = 3;
 
         for (int i = 0; i < maxRetries; i++) {
             try {
-                // Fresh element tap
-                WebElement freshElement = wait.until(
-                        ExpectedConditions.elementToBeClickable(
-                                By.xpath(String.format(
-                                        "//span[@class='option' and @data-spec-id='%s']",
-                                        option.specId
-                                ))
-                        )
+                // Fresh element tap - SELECTED olmayan elementi seç
+                WebElement freshElement = wait.until(driver -> {
+                    List<WebElement> elements = driver.findElements(
+                            By.xpath(String.format(
+                                    "//span[@data-spec-id='%s' and @class='option']",
+                                    option.specId
+                            ))
+                    );
+                    return elements.isEmpty() ? null : elements.get(0);
+                });
+
+                if (freshElement == null) {
+                    logger.debug("Element artıq seçili və ya tapılmadı: {}", option.text);
+                    return;
+                }
+
+                // Scroll into view
+                ((JavascriptExecutor) driver).executeScript(
+                        "arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});",
+                        freshElement
                 );
 
-                // JavaScript click (daha etibarlı)
+                Thread.sleep(300);
+
+                // JavaScript click
                 ((JavascriptExecutor) driver).executeScript(
                         "arguments[0].click();", freshElement
                 );
@@ -271,6 +336,14 @@ public class ProductDetailPage {
             } catch (Exception e) {
                 logger.warn("Variant klik xətası (retry {}/{}): {}",
                         i + 1, maxRetries, e.getMessage());
+
+                if (i < maxRetries - 1) {
+                    try {
+                        Thread.sleep(500);
+                    } catch (InterruptedException ie) {
+                        Thread.currentThread().interrupt();
+                    }
+                }
             }
         }
 
@@ -282,10 +355,10 @@ public class ProductDetailPage {
      */
     private void waitForPriceUpdate() {
         try {
-            // Qısa gözləmə - DOM yenilənməsi üçün
+            Thread.sleep(500);
+
             wait.until(ExpectedConditions.presenceOfElementLocated(FIRST_PRICE_ITEM));
 
-            // Əlavə stabillik yoxlaması
             wait.until(driver -> {
                 try {
                     driver.findElement(FIRST_PRICE_ITEM);
@@ -452,7 +525,6 @@ public class ProductDetailPage {
                 specs.getDimensions().put("thickness", value);
                 break;
             default:
-                // Digər spesifikasiyalar
                 specs.getAdditionalSpecs().put(fieldName, value);
                 break;
         }
@@ -464,7 +536,6 @@ public class ProductDetailPage {
     public void navigateBack() {
         driver.navigate().back();
 
-        // Səhifənin yüklənməsini gözlə
         wait.until(driver ->
                 ((JavascriptExecutor) driver).executeScript("return document.readyState")
                         .equals("complete")
