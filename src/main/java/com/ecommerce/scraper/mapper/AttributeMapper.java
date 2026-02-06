@@ -295,7 +295,7 @@ public class AttributeMapper {
             AttributeGroup group = categoryGroups.get(category);
             if (group != null) {
                 group.addSpecification(new SpecificationItem(
-                    azerbaijaniLabel, key, value != null ? value : ""));
+                    azerbaijaniLabel, key, getValueOrEmpty(value)));
             }
         }
     }
@@ -309,8 +309,15 @@ public class AttributeMapper {
         if (group != null) {
             String label = AZERBAIJANI_LABELS.getOrDefault(key, key);
             group.addSpecification(new SpecificationItem(
-                label, key, value != null ? value : ""));
+                label, key, getValueOrEmpty(value)));
         }
+    }
+
+    /**
+     * Helper method to return empty string if value is null
+     */
+    private String getValueOrEmpty(String value) {
+        return value != null ? value : "";
     }
 
     /**
@@ -321,16 +328,43 @@ public class AttributeMapper {
             return "";
         }
         
-        // Simple conversion: lowercase and replace spaces with underscores
-        return label.toLowerCase()
-            .replace(" ", "_")
-            .replace("ə", "a")
-            .replace("ı", "i")
-            .replace("ö", "o")
-            .replace("ü", "u")
-            .replace("ğ", "g")
-            .replace("ş", "sh")
-            .replace("ç", "ch")
-            .replaceAll("[^a-z0-9_]", "");
+        // Use StringBuilder for efficient string manipulation
+        StringBuilder result = new StringBuilder();
+        for (char c : label.toLowerCase().toCharArray()) {
+            switch (c) {
+                case 'ə':
+                    result.append('a');
+                    break;
+                case 'ı':
+                    result.append('i');
+                    break;
+                case 'ö':
+                    result.append('o');
+                    break;
+                case 'ü':
+                    result.append('u');
+                    break;
+                case 'ğ':
+                    result.append('g');
+                    break;
+                case 'ş':
+                    result.append("sh");
+                    break;
+                case 'ç':
+                    result.append("ch");
+                    break;
+                case ' ':
+                    result.append('_');
+                    break;
+                default:
+                    // Only keep alphanumeric and underscore
+                    if (Character.isLetterOrDigit(c) || c == '_') {
+                        result.append(c);
+                    }
+                    break;
+            }
+        }
+        
+        return result.toString();
     }
 }
