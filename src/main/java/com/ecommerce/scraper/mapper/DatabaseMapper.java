@@ -1,8 +1,10 @@
 package com.ecommerce.scraper.mapper;
 
+import com.ecommerce.scraper.model.AttributeGroup;
 import com.ecommerce.scraper.model.Product;
 import com.ecommerce.scraper.model.ProductSpecifications;
 import com.ecommerce.scraper.model.ProductVariant;
+import com.ecommerce.scraper.model.SpecificationItem;
 import com.ecommerce.scraper.model.db.BrandEntity;
 import com.ecommerce.scraper.model.db.ProductAttributeEntity;
 import com.ecommerce.scraper.model.db.ProductEntity;
@@ -225,119 +227,33 @@ public class DatabaseMapper {
     }
 
     /**
-     * Create product attributes from specifications
+     * Create product attributes from attributes (not specifications)
      */
     public void createProductAttributes(Product product, Long productId, DatabaseOutput output) {
-        ProductSpecifications specs = product.getSpecifications();
-        if (specs == null) {
+        if (product.getAttributes() == null) {
             return;
         }
-
+        
         int sortOrder = 1;
-
-        // Operating System
-        if (specs.getOperatingSystem() != null && !specs.getOperatingSystem().trim().isEmpty()) {
-            addSpecificationAttribute(output, productId, "operating_system", specs.getOperatingSystem(), sortOrder++);
-        }
-
-        // Processor
-        if (specs.getProcessor() != null && !specs.getProcessor().trim().isEmpty()) {
-            addSpecificationAttribute(output, productId, "processor", specs.getProcessor(), sortOrder++);
-        }
-
-        // Max Processor Speed
-        if (specs.getMaxProcessorSpeed() != null && !specs.getMaxProcessorSpeed().trim().isEmpty()) {
-            addSpecificationAttribute(output, productId, "max_processor_speed", specs.getMaxProcessorSpeed(), sortOrder++);
-        }
-
-        // Processor Count
-        if (specs.getProcessorCount() != null && !specs.getProcessorCount().trim().isEmpty()) {
-            addSpecificationAttribute(output, productId, "processor_count", specs.getProcessorCount(), sortOrder++);
-        }
-
-        // Graphic Processor
-        if (specs.getGraphicProcessor() != null && !specs.getGraphicProcessor().trim().isEmpty()) {
-            addSpecificationAttribute(output, productId, "graphic_processor", specs.getGraphicProcessor(), sortOrder++);
-        }
-
-        // Screen Size
-        if (specs.getScreenSize() != null && !specs.getScreenSize().trim().isEmpty()) {
-            addSpecificationAttribute(output, productId, "screen_size", specs.getScreenSize(), sortOrder++);
-        }
-
-        // Screen Type
-        if (specs.getScreenType() != null && !specs.getScreenType().trim().isEmpty()) {
-            addSpecificationAttribute(output, productId, "screen_type", specs.getScreenType(), sortOrder++);
-        }
-
-        // Refresh Rate
-        if (specs.getRefreshRate() != null && !specs.getRefreshRate().trim().isEmpty()) {
-            addSpecificationAttribute(output, productId, "refresh_rate", specs.getRefreshRate(), sortOrder++);
-        }
-
-        // Resolution
-        if (specs.getResolution() != null && !specs.getResolution().trim().isEmpty()) {
-            addSpecificationAttribute(output, productId, "resolution", specs.getResolution(), sortOrder++);
-        }
-
-        // Back Camera MP
-        if (specs.getBackCameraMp() != null && !specs.getBackCameraMp().trim().isEmpty()) {
-            addSpecificationAttribute(output, productId, "back_camera_mp", specs.getBackCameraMp(), sortOrder++);
-        }
-
-        // Back Camera Count
-        if (specs.getBackCameraCount() != null && !specs.getBackCameraCount().trim().isEmpty()) {
-            addSpecificationAttribute(output, productId, "back_camera_count", specs.getBackCameraCount(), sortOrder++);
-        }
-
-        // Front Camera MP
-        if (specs.getFrontCameraMp() != null && !specs.getFrontCameraMp().trim().isEmpty()) {
-            addSpecificationAttribute(output, productId, "front_camera_mp", specs.getFrontCameraMp(), sortOrder++);
-        }
-
-        // Video Resolution
-        if (specs.getVideoResolution() != null && !specs.getVideoResolution().trim().isEmpty()) {
-            addSpecificationAttribute(output, productId, "video_resolution", specs.getVideoResolution(), sortOrder++);
-        }
-
-        // RAM
-        if (specs.getRam() != null && !specs.getRam().trim().isEmpty()) {
-            addSpecificationAttribute(output, productId, "ram", specs.getRam(), sortOrder++);
-        }
-
-        // Battery
-        if (specs.getBattery() != null && !specs.getBattery().trim().isEmpty()) {
-            addSpecificationAttribute(output, productId, "battery", specs.getBattery(), sortOrder++);
-        }
-
-        // Weight
-        if (specs.getWeight() != null && !specs.getWeight().trim().isEmpty()) {
-            addSpecificationAttribute(output, productId, "weight", specs.getWeight(), sortOrder++);
-        }
-
-        // Dimensions
-        if (specs.getDimensions() != null && !specs.getDimensions().isEmpty()) {
-            for (Map.Entry<String, String> entry : specs.getDimensions().entrySet()) {
-                if (entry.getValue() != null && !entry.getValue().trim().isEmpty()) {
-                    addSpecificationAttribute(output, productId, "dimension_" + entry.getKey(), entry.getValue(), sortOrder++);
+        
+        for (AttributeGroup group : product.getAttributes()) {
+            for (SpecificationItem item : group.getItems()) {
+                
+                ProductAttributeEntity attr = new ProductAttributeEntity();
+                attr.setId(attributeIdCounter.getAndIncrement());
+                attr.setProductId(productId);
+                attr.setAttributeName(item.getKey());
+                attr.setAttributeValue(item.getValue());
+                attr.setSortOrder(sortOrder++);
+                
+                // Set attribute type based on key
+                if ("colors".equals(item.getKey()) || "color".equals(item.getKey())) {
+                    attr.setAttributeType("color");
+                } else {
+                    attr.setAttributeType("text");
                 }
-            }
-        }
-
-        // Additional Specs
-        if (specs.getAdditionalSpecs() != null && !specs.getAdditionalSpecs().isEmpty()) {
-            for (Map.Entry<String, String> entry : specs.getAdditionalSpecs().entrySet()) {
-                if (entry.getValue() != null && !entry.getValue().trim().isEmpty()) {
-                    ProductAttributeEntity attr = new ProductAttributeEntity(
-                            attributeIdCounter.getAndIncrement(),
-                            productId,
-                            entry.getKey(),
-                            entry.getValue().trim()
-                    );
-                    attr.setAttributeType("additional");
-                    attr.setSortOrder(sortOrder++);
-                    output.addProductAttribute(attr);
-                }
+                
+                output.addProductAttribute(attr);
             }
         }
     }

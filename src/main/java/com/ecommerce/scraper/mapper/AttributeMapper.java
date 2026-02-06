@@ -147,7 +147,7 @@ public class AttributeMapper {
         // Convert to list and remove empty groups
         List<AttributeGroup> result = new ArrayList<>();
         for (AttributeGroup group : categoryGroups.values()) {
-            if (!group.getSpecifications().isEmpty()) {
+            if (!group.getItems().isEmpty()) {
                 result.add(group);
             }
         }
@@ -294,7 +294,7 @@ public class AttributeMapper {
             // Add specification
             AttributeGroup group = categoryGroups.get(category);
             if (group != null) {
-                group.addSpecification(new SpecificationItem(
+                group.addItem(new SpecificationItem(
                     azerbaijaniLabel, key, getValueOrEmpty(value)));
             }
         }
@@ -308,7 +308,7 @@ public class AttributeMapper {
         AttributeGroup group = categoryGroups.get(category);
         if (group != null) {
             String label = AZERBAIJANI_LABELS.getOrDefault(key, key);
-            group.addSpecification(new SpecificationItem(
+            group.addItem(new SpecificationItem(
                 label, key, getValueOrEmpty(value)));
         }
     }

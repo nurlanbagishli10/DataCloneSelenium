@@ -9,17 +9,17 @@ public class AttributeGroup {
     @JsonProperty("main_label")
     private String mainLabel;
 
-    @JsonProperty("specifications")
-    private List<SpecificationItem> specifications;
+    @JsonProperty("items")
+    private List<SpecificationItem> items;
 
     // Constructors
     public AttributeGroup() {
-        this.specifications = new ArrayList<>();
+        this.items = new ArrayList<>();
     }
 
     public AttributeGroup(String mainLabel) {
         this.mainLabel = mainLabel;
-        this.specifications = new ArrayList<>();
+        this.items = new ArrayList<>();
     }
 
     // Getters and Setters
@@ -31,15 +31,15 @@ public class AttributeGroup {
         this.mainLabel = mainLabel;
     }
 
-    public List<SpecificationItem> getSpecifications() {
-        return specifications;
+    public List<SpecificationItem> getItems() {
+        return items;
     }
 
-    public void setSpecifications(List<SpecificationItem> specifications) {
-        this.specifications = specifications;
+    public void setItems(List<SpecificationItem> items) {
+        this.items = items;
     }
 
-    public void addSpecification(SpecificationItem specification) {
-        this.specifications.add(specification);
+    public void addItem(SpecificationItem item) {
+        this.items.add(item);
     }
 }

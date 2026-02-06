@@ -448,8 +448,27 @@ public class ProductDetailPage {
                         String fieldId = row.getAttribute("id");
                         String fieldName = row.findElement(By.cssSelector(".field-name"))
                                 .getText().trim();
-                        String value = row.findElement(By.cssSelector(".values"))
-                                .getText().trim();
+                        
+                        // Detect boolean icon values
+                        WebElement valueElement = row.findElement(By.cssSelector(".values .value"));
+                        String dataValue = valueElement.getAttribute("data-value");
+                        String valueClass = valueElement.getAttribute("class");
+                        
+                        String value;
+                        if (valueClass != null && valueClass.contains("icon")) {
+                            // Boolean field with icon
+                            if ("1.00".equals(dataValue)) {
+                                value = "true";
+                            } else if ("0.00".equals(dataValue)) {
+                                value = "false";
+                            } else {
+                                value = "";
+                            }
+                        } else {
+                            // Regular text value
+                            value = row.findElement(By.cssSelector(".values"))
+                                    .getText().trim();
+                        }
 
                         mapSpecificationField(specs, fieldId, fieldName, value);
 

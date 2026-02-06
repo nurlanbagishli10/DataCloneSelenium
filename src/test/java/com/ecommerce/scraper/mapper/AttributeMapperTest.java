@@ -83,9 +83,9 @@ public class AttributeMapperTest {
         
         for (AttributeGroup group : attributes) {
             System.out.println("Category: " + group.getMainLabel());
-            System.out.println("Specifications count: " + group.getSpecifications().size());
+            System.out.println("Specifications count: " + group.getItems().size());
             
-            for (SpecificationItem item : group.getSpecifications()) {
+            for (SpecificationItem item : group.getItems()) {
                 String valueDisplay = item.getValue();
                 if (valueDisplay.length() > 50) {
                     valueDisplay = valueDisplay.substring(0, 47) + "...";

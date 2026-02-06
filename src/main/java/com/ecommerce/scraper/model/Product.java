@@ -1,5 +1,6 @@
 package com.ecommerce.scraper.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +16,7 @@ public class Product {
     @JsonProperty("variants")
     private List<ProductVariant> variants = new ArrayList<>();
 
-    @JsonProperty("specifications")
+    @JsonIgnore  // Hide from JSON export, keep for internal use
     private ProductSpecifications specifications;
 
     @JsonProperty("attributes")
