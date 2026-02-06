@@ -1,0 +1,2336 @@
+[ {
+  "brand" : "Apple",
+  "title" : "iPhone 11 xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : "64 GB",
+    "color" : "Black",
+    "price" : "1149.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : "birmarket.az"
+  }, {
+    "storage" : "64 GB",
+    "color" : "White",
+    "price" : "1149.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "128 GB",
+    "color" : "Black",
+    "price" : "1149.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "128 GB",
+    "color" : "White",
+    "price" : "1149.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  } ],
+  "specifications" : {
+    "operating_system" : "iOS 13",
+    "processor" : "Apple A13 Bionic",
+    "max_processor_speed" : "2.65 GHz",
+    "processor_count" : "6",
+    "graphic_processor" : "Apple GPU (4-core graphics)",
+    "screen_size" : "6.1 inç",
+    "screen_type" : "LCD",
+    "refresh_rate" : "60 Hz",
+    "resolution" : "828 x 1792 px",
+    "back_camera_mp" : "12 MP",
+    "back_camera_count" : "2",
+    "front_camera_mp" : "12 MP",
+    "video_resolution" : "4K",
+    "ram" : "4 GB",
+    "battery" : "3110 mAh",
+    "weight" : "194 qram",
+    "dimensions" : {
+      "thickness" : "8.3 mm",
+      "length" : "150.9 mm",
+      "width" : "75.7 mm"
+    },
+    "additional_specs" : {
+      "Suya davamlılıq" : "uzun müddətli suya batmaya qarşı qorunur",
+      "Ekran qorunması" : "Corning-made glass",
+      "Yaddaş kartı dəstəyi" : "",
+      "Toza davamlılıq" : "tam tozkeçirməz",
+      "Şəkil sabitləşdirilməsi" : "OIS",
+      "Daxili yaddaş" : "64 GB\n128 GB\n256 GB",
+      "NFC" : "",
+      "Maksimum ekran parlaqlığı" : "625 nit",
+      "Ekran gövdə faizi" : "79.0 %",
+      "Rəng" : "Gold\nRed\nWhite\nYellow\nBlack\nGreen\nPurple",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "60",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "Nano-SIM\neSIM",
+      "İstehsal ili" : "2019",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Üz oxuyucu",
+      "Suya və toza davamlılıq standartı" : "IP68",
+      "SIM kart sayı" : "2",
+      "Suya davamlı" : ""
+    }
+  }
+}, {
+  "brand" : "Apple",
+  "title" : "iPhone 13 xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : null,
+    "color" : "Midnight",
+    "price" : "1229.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : null,
+    "color" : "Starlight",
+    "price" : "1229.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : null,
+    "color" : "Blue",
+    "price" : "1229.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : null,
+    "color" : "Green",
+    "price" : "1229.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  } ],
+  "specifications" : {
+    "operating_system" : "iOS 15",
+    "processor" : "Apple A15 Bionic",
+    "max_processor_speed" : "3.23 GHz",
+    "processor_count" : "6",
+    "graphic_processor" : "Apple GPU (4-core graphics)",
+    "screen_size" : "6.1 inç",
+    "screen_type" : "OLED",
+    "refresh_rate" : "60 Hz",
+    "resolution" : "1170 x 2532 px",
+    "back_camera_mp" : "12 MP",
+    "back_camera_count" : "2",
+    "front_camera_mp" : "12 MP",
+    "video_resolution" : "4K",
+    "ram" : "4 GB",
+    "battery" : "3240 mAh",
+    "weight" : "174 qram",
+    "dimensions" : {
+      "thickness" : "7.7 mm",
+      "length" : "146.7 mm",
+      "width" : "71.5 mm"
+    },
+    "additional_specs" : {
+      "Suya davamlılıq" : "uzun müddətli suya batmaya qarşı qorunur",
+      "Ekran qorunması" : "Corning Ceramic Shield Glass",
+      "Yaddaş kartı dəstəyi" : "",
+      "Toza davamlılıq" : "tam tozkeçirməz",
+      "Şəkil sabitləşdirilməsi" : "Sensor-Shift OIS",
+      "Daxili yaddaş" : "128 GB\n256 GB\n512 GB",
+      "NFC" : "",
+      "Maksimum ekran parlaqlığı" : "1200 nit",
+      "Ekran gövdə faizi" : "86.0 %",
+      "Rəng" : "Starlight\nMidnight\nBlue\nGreen\nPink\nRed",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "60",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "eSIM\nNano-SIM",
+      "İstehsal ili" : "2021",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Üz oxuyucu",
+      "Suya və toza davamlılıq standartı" : "IP68",
+      "SIM kart sayı" : "2",
+      "Suya davamlı" : ""
+    }
+  }
+}, {
+  "brand" : "Apple",
+  "title" : "iPhone 14 Pro xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : "128 GB",
+    "color" : "Deep Purple",
+    "price" : "2099.99",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : "birmarket.az"
+  }, {
+    "storage" : "128 GB",
+    "color" : "Space Black",
+    "price" : "2099.99",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "128 GB",
+    "color" : "Silver",
+    "price" : "2099.99",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "256 GB",
+    "color" : "Deep Purple",
+    "price" : "2099.99",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "256 GB",
+    "color" : "Space Black",
+    "price" : "2099.99",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "256 GB",
+    "color" : "Silver",
+    "price" : "2099.99",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  } ],
+  "specifications" : {
+    "operating_system" : "iOS 16",
+    "processor" : "Apple A16 Bionic",
+    "max_processor_speed" : "3.46 GHz",
+    "processor_count" : "6",
+    "graphic_processor" : "Apple GPU",
+    "screen_size" : "6.1 inç",
+    "screen_type" : "OLED",
+    "refresh_rate" : "120 Hz",
+    "resolution" : "1179 x 2556 px",
+    "back_camera_mp" : "48 MP",
+    "back_camera_count" : "3",
+    "front_camera_mp" : "12 MP",
+    "video_resolution" : "4K",
+    "ram" : "6 GB",
+    "battery" : "3200 mAh",
+    "weight" : "206 qram",
+    "dimensions" : {
+      "thickness" : "7.9 mm",
+      "length" : "147.5 mm",
+      "width" : "71.5 mm"
+    },
+    "additional_specs" : {
+      "Suya davamlılıq" : "uzun müddətli suya batmaya qarşı qorunur",
+      "Ekran qorunması" : "Corning Ceramic Shield Glass",
+      "Yaddaş kartı dəstəyi" : "",
+      "Toza davamlılıq" : "tam tozkeçirməz",
+      "Şəkil sabitləşdirilməsi" : "Sensor-Shift OIS",
+      "Daxili yaddaş" : "128 GB\n256 GB\n512 GB\n1 TB",
+      "NFC" : "",
+      "Maksimum ekran parlaqlığı" : "2000 nit",
+      "Ekran gövdə faizi" : "87.0 %",
+      "Rəng" : "Deep Purple\nGold\nSilver\nSpace Black",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "60",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "eSIM\nNano-SIM",
+      "İstehsal ili" : "2022",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Üz oxuyucu",
+      "Suya və toza davamlılıq standartı" : "IP68",
+      "SIM kart sayı" : "2",
+      "Suya davamlı" : ""
+    }
+  }
+}, {
+  "brand" : "Apple",
+  "title" : "iPhone 12 xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : "64 GB",
+    "color" : "Black",
+    "price" : "1299.00",
+    "currency" : "AZN",
+    "seller" : "Smarton",
+    "website" : "smarton.az"
+  }, {
+    "storage" : "64 GB",
+    "color" : "White",
+    "price" : "1299.00",
+    "currency" : "AZN",
+    "seller" : "Smarton",
+    "website" : ""
+  }, {
+    "storage" : "64 GB",
+    "color" : "Green",
+    "price" : "1299.00",
+    "currency" : "AZN",
+    "seller" : "Smarton",
+    "website" : ""
+  }, {
+    "storage" : "64 GB",
+    "color" : "Purple",
+    "price" : "1299.00",
+    "currency" : "AZN",
+    "seller" : "Smarton",
+    "website" : ""
+  }, {
+    "storage" : "128 GB",
+    "color" : "Black",
+    "price" : "1299.00",
+    "currency" : "AZN",
+    "seller" : "Smarton",
+    "website" : ""
+  }, {
+    "storage" : "128 GB",
+    "color" : "White",
+    "price" : "1299.00",
+    "currency" : "AZN",
+    "seller" : "Smarton",
+    "website" : ""
+  }, {
+    "storage" : "128 GB",
+    "color" : "Green",
+    "price" : "1299.00",
+    "currency" : "AZN",
+    "seller" : "Smarton",
+    "website" : ""
+  }, {
+    "storage" : "128 GB",
+    "color" : "Purple",
+    "price" : "1299.00",
+    "currency" : "AZN",
+    "seller" : "Smarton",
+    "website" : ""
+  } ],
+  "specifications" : {
+    "operating_system" : "iOS 14.1",
+    "processor" : "Apple A14 Bionic",
+    "max_processor_speed" : "3.1 GHz",
+    "processor_count" : "6",
+    "graphic_processor" : "Apple GPU (4-core graphics)",
+    "screen_size" : "6.1 inç",
+    "screen_type" : "OLED",
+    "refresh_rate" : "60 Hz",
+    "resolution" : "1170 x 2532 px",
+    "back_camera_mp" : "12 MP",
+    "back_camera_count" : "2",
+    "front_camera_mp" : "12 MP",
+    "video_resolution" : "4K",
+    "ram" : "4 GB",
+    "battery" : "2815 mAh",
+    "weight" : "164 qram",
+    "dimensions" : {
+      "thickness" : "7.4 mm",
+      "length" : "146.7 mm",
+      "width" : "71.5 mm"
+    },
+    "additional_specs" : {
+      "Suya davamlılıq" : "uzun müddətli suya batmaya qarşı qorunur",
+      "Ekran qorunması" : "Corning Ceramic Shield Glass",
+      "Yaddaş kartı dəstəyi" : "",
+      "Toza davamlılıq" : "tam tozkeçirməz",
+      "Şəkil sabitləşdirilməsi" : "OIS",
+      "Daxili yaddaş" : "64 GB\n128 GB\n256 GB",
+      "NFC" : "",
+      "Maksimum ekran parlaqlığı" : "1200 nit",
+      "Ekran gövdə faizi" : "86.0 %",
+      "Rəng" : "Blue\nBlack\nGreen\nPurple\nRed\nWhite",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "60",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "eSIM\nNano-SIM",
+      "İstehsal ili" : "2020",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Üz oxuyucu",
+      "Suya və toza davamlılıq standartı" : "IP68",
+      "SIM kart sayı" : "2",
+      "Suya davamlı" : ""
+    }
+  }
+}, {
+  "brand" : "Apple",
+  "title" : "iPhone 7 xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : null,
+    "color" : null,
+    "price" : "799.99",
+    "currency" : "AZN",
+    "seller" : "Soliton",
+    "website" : null
+  } ],
+  "specifications" : {
+    "operating_system" : "iOS 10.0.1",
+    "processor" : "Apple A10 Fusion",
+    "max_processor_speed" : "2.34 GHz",
+    "processor_count" : "4",
+    "graphic_processor" : "PowerVR Series7XT Plus",
+    "screen_size" : "4.7 inç",
+    "screen_type" : "IPS",
+    "refresh_rate" : "60 Hz",
+    "resolution" : "750 x 1334 px",
+    "back_camera_mp" : "12 MP",
+    "back_camera_count" : "1",
+    "front_camera_mp" : "7 MP",
+    "video_resolution" : "4K",
+    "ram" : "2 GB",
+    "battery" : "1960 mAh",
+    "weight" : "138 qram",
+    "dimensions" : {
+      "thickness" : "7.1 mm",
+      "length" : "138.3 mm",
+      "width" : "67.1 mm"
+    },
+    "additional_specs" : {
+      "Suya davamlılıq" : "qısa müddətli (30 dəq) suya batmaya qarşı qorunur",
+      "Gözləmə rejimində iş müddəti" : "240 saat",
+      "Yaddaş kartı dəstəyi" : "",
+      "Toza davamlılıq" : "tam tozkeçirməz",
+      "Şəkil sabitləşdirilməsi" : "OIS + EIS",
+      "Daxili yaddaş" : "32 GB\n128 GB\n256 GB",
+      "NFC" : "",
+      "Maksimum ekran parlaqlığı" : "625 nit",
+      "Ekran gövdə faizi" : "65.6 %",
+      "Rəng" : "Red\nBlack\nRose Gold\nGold\nJet Black\nSilver",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "30",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "Nano-SIM",
+      "İstehsal ili" : "2016",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Barmaq izi oxuyucu (ekranda)\nÜz oxuyucu",
+      "Suya və toza davamlılıq standartı" : "IP67",
+      "SIM kart sayı" : "1",
+      "Suya davamlı" : "",
+      "Danışıq rejimində iş müddəti" : "14 saat"
+    }
+  }
+}, {
+  "brand" : "Apple",
+  "title" : "iPhone 6 xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : null,
+    "color" : null,
+    "price" : "559.99",
+    "currency" : "AZN",
+    "seller" : "Soliton",
+    "website" : null
+  } ],
+  "specifications" : {
+    "operating_system" : "iOS 8",
+    "processor" : "Apple A8",
+    "max_processor_speed" : "1.4 GHz",
+    "processor_count" : "2",
+    "graphic_processor" : "PowerVR GX6450",
+    "screen_size" : "4.7 inç",
+    "screen_type" : "IPS",
+    "refresh_rate" : "60 Hz",
+    "resolution" : "750 x 1334 px",
+    "back_camera_mp" : "8 MP",
+    "back_camera_count" : "1",
+    "front_camera_mp" : "1.2 MP",
+    "video_resolution" : "1080p",
+    "ram" : "1 GB",
+    "battery" : "1810 mAh",
+    "weight" : "129 qram",
+    "dimensions" : {
+      "thickness" : "6.9 mm",
+      "length" : "138.2 mm",
+      "width" : "67.1 mm"
+    },
+    "additional_specs" : {
+      "Gözləmə rejimində iş müddəti" : "250 saat",
+      "Yaddaş kartı dəstəyi" : "",
+      "Şəkil sabitləşdirilməsi" : "EIS",
+      "Daxili yaddaş" : "16 GB\n32 GB\n64 GB\n128 GB",
+      "NFC" : "",
+      "Ekran gövdə faizi" : "65.8 %",
+      "Rəng" : "Space Gray\nGold\nSilver",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "60",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "Nano-SIM",
+      "İstehsal ili" : "2014",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Barmaq izi oxuyucu (ekranda)\nÜz oxuyucu",
+      "SIM kart sayı" : "1",
+      "Suya davamlı" : "",
+      "Danışıq rejimində iş müddəti" : "14 saat"
+    }
+  }
+}, {
+  "brand" : "Samsung",
+  "title" : "Samsung Galaxy S23 Ultra xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : "256 GB",
+    "color" : "Green",
+    "price" : "1888.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : "birmarket.az"
+  }, {
+    "storage" : "256 GB",
+    "color" : "Phantom Black",
+    "price" : "1888.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "256 GB",
+    "color" : "Lavender",
+    "price" : "1888.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "512 GB",
+    "color" : "Green",
+    "price" : "1888.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "512 GB",
+    "color" : "Phantom Black",
+    "price" : "1888.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "512 GB",
+    "color" : "Lavender",
+    "price" : "1888.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  } ],
+  "specifications" : {
+    "operating_system" : "Android 13\nOne UI 6.1.1",
+    "processor" : "Qualcomm SM8550-AC Snapdragon 8 Gen 2",
+    "max_processor_speed" : "3.36 GHz",
+    "processor_count" : "8",
+    "graphic_processor" : "Adreno 740",
+    "screen_size" : "6.8 inç",
+    "screen_type" : "AMOLED",
+    "refresh_rate" : "120 Hz",
+    "resolution" : "1440 x 3088 px",
+    "back_camera_mp" : "200 MP",
+    "back_camera_count" : "4",
+    "front_camera_mp" : "12 MP",
+    "video_resolution" : "8K",
+    "ram" : "8 GB\n12 GB",
+    "battery" : "5000 mAh",
+    "weight" : "234 qram",
+    "dimensions" : {
+      "thickness" : "8.9 mm",
+      "length" : "163.4 mm",
+      "width" : "78.1 mm"
+    },
+    "additional_specs" : {
+      "Suya davamlılıq" : "uzun müddətli suya batmaya qarşı qorunur",
+      "Ekran qorunması" : "Corning Gorilla Glass Victus 2",
+      "Yaddaş kartı dəstəyi" : "",
+      "Toza davamlılıq" : "tam tozkeçirməz",
+      "Şəkil sabitləşdirilməsi" : "OIS",
+      "Daxili yaddaş" : "256 GB\n512 GB\n1 TB",
+      "NFC" : "",
+      "Maksimum ekran parlaqlığı" : "1750 nit",
+      "Ekran gövdə faizi" : "89.9 %",
+      "Rəng" : "Cream\nPhantom Black\nGraphite\nBMW M Edition\nGreen\nLavender\nLime\nRed\nSky Blue",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "30",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "eSIM\nNano-SIM",
+      "İstehsal ili" : "2023",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Üz oxuyucu",
+      "Suya və toza davamlılıq standartı" : "IP68",
+      "SIM kart sayı" : "2",
+      "Suya davamlı" : ""
+    }
+  }
+}, {
+  "brand" : "Samsung",
+  "title" : "Samsung Galaxy S24 Ultra xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : null,
+    "color" : null,
+    "price" : "2499.94",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : "birmarket.az"
+  } ],
+  "specifications" : {
+    "operating_system" : "Android 14\nOne UI 6.1.1",
+    "processor" : "Qualcomm SM8650-AC Snapdragon 8 Gen 3",
+    "max_processor_speed" : "3.39 GHz",
+    "processor_count" : "8",
+    "graphic_processor" : "Adreno 750",
+    "screen_size" : "6.8 inç",
+    "screen_type" : "AMOLED",
+    "refresh_rate" : "120 Hz",
+    "resolution" : "1440 x 3120 px",
+    "back_camera_mp" : "200 MP",
+    "back_camera_count" : "4",
+    "front_camera_mp" : "12 MP",
+    "video_resolution" : "8K",
+    "ram" : "12 GB",
+    "battery" : "5000 mAh",
+    "weight" : "232 qram",
+    "dimensions" : {
+      "thickness" : "8.6 mm",
+      "length" : "162.3 mm",
+      "width" : "79 mm"
+    },
+    "additional_specs" : {
+      "Suya davamlılıq" : "uzun müddətli suya batmaya qarşı qorunur",
+      "Ekran qorunması" : "Corning Gorilla Armor",
+      "Yaddaş kartı dəstəyi" : "",
+      "Toza davamlılıq" : "tam tozkeçirməz",
+      "Şəkil sabitləşdirilməsi" : "OIS",
+      "Daxili yaddaş" : "256 GB\n512 GB\n1 TB",
+      "NFC" : "",
+      "Maksimum ekran parlaqlığı" : "2600 nit",
+      "Ekran gövdə faizi" : "88.5 %",
+      "Rəng" : "Titanium Violet\nTitanium Yellow\nTitanium Orange\nTitanium Gray\nTitanium Black\nTitanium Green\nTitanium Blue",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "30",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "eSIM\nNano-SIM",
+      "İstehsal ili" : "2024",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Üz oxuyucu\nBarmaq izi oxuyucu (ekranda)",
+      "Suya və toza davamlılıq standartı" : "IP68",
+      "SIM kart sayı" : "2",
+      "Suya davamlı" : ""
+    }
+  }
+}, {
+  "brand" : "Apple",
+  "title" : "iPhone 15 Pro Max xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : "256 GB",
+    "color" : "Natural Titanium",
+    "price" : "2649.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : "birmarket.az"
+  }, {
+    "storage" : "256 GB",
+    "color" : "Black Titanium",
+    "price" : "2649.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "256 GB",
+    "color" : "Blue Titanium",
+    "price" : "2649.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "1 TB",
+    "color" : "Natural Titanium",
+    "price" : "2649.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "1 TB",
+    "color" : "Black Titanium",
+    "price" : "2649.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "1 TB",
+    "color" : "Blue Titanium",
+    "price" : "2649.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  } ],
+  "specifications" : {
+    "operating_system" : "iOS 17",
+    "processor" : "Apple A17 Pro",
+    "max_processor_speed" : "3.78 GHz",
+    "processor_count" : "6",
+    "graphic_processor" : "Apple GPU (6-core graphics)",
+    "screen_size" : "6.7 inç",
+    "screen_type" : "OLED",
+    "refresh_rate" : "120 Hz",
+    "resolution" : "1290 x 2796 px",
+    "back_camera_mp" : "48 MP",
+    "back_camera_count" : "3",
+    "front_camera_mp" : "12 MP",
+    "video_resolution" : "4K",
+    "ram" : "8 GB",
+    "battery" : "4422 mAh",
+    "weight" : "221 qram",
+    "dimensions" : {
+      "thickness" : "8.3 mm",
+      "length" : "159.9 mm",
+      "width" : "76.7 mm"
+    },
+    "additional_specs" : {
+      "Suya davamlılıq" : "uzun müddətli suya batmaya qarşı qorunur",
+      "Ekran qorunması" : "Corning Ceramic Shield Glass",
+      "Yaddaş kartı dəstəyi" : "",
+      "Toza davamlılıq" : "tam tozkeçirməz",
+      "Şəkil sabitləşdirilməsi" : "Sensor-Shift OIS",
+      "Daxili yaddaş" : "256 GB\n512 GB\n1 TB",
+      "NFC" : "",
+      "Maksimum ekran parlaqlığı" : "2000 nit",
+      "Ekran gövdə faizi" : "89.8 %",
+      "Rəng" : "Natural Titanium\nBlue Titanium\nWhite Titanium\nBlack Titanium",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "60",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "eSIM\nNano-SIM",
+      "İstehsal ili" : "2023",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Üz oxuyucu",
+      "Suya və toza davamlılıq standartı" : "IP68",
+      "SIM kart sayı" : "2",
+      "Suya davamlı" : ""
+    }
+  }
+}, {
+  "brand" : "Xiaomi",
+  "title" : "Xiaomi Redmi Note 10 Pro xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : null,
+    "color" : "Onyx Gray",
+    "price" : "338.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : "birmarket.az"
+  }, {
+    "storage" : null,
+    "color" : "Glacier Blue",
+    "price" : "338.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  } ],
+  "specifications" : {
+    "operating_system" : "MIUI 14\nAndroid 11",
+    "processor" : "Qualcomm SM7150 Snapdragon 732G",
+    "max_processor_speed" : "2.3 GHz",
+    "processor_count" : "8",
+    "graphic_processor" : "Adreno 618",
+    "screen_size" : "6.67 inç",
+    "screen_type" : "AMOLED",
+    "refresh_rate" : "120 Hz",
+    "resolution" : "1080 x 2400 px",
+    "back_camera_mp" : "108 MP",
+    "back_camera_count" : "4",
+    "front_camera_mp" : "16 MP",
+    "video_resolution" : "4K",
+    "ram" : "6 GB\n8 GB",
+    "battery" : "5020 mAh",
+    "weight" : "193 qram",
+    "dimensions" : {
+      "thickness" : "8.1 mm",
+      "length" : "164 mm",
+      "width" : "76.5 mm"
+    },
+    "additional_specs" : {
+      "Suya davamlılıq" : "su çilənməsinə qarşı qorunur",
+      "Ekran qorunması" : "Corning Gorilla Glass 5",
+      "Yaddaş kartı dəstəyi" : "",
+      "Toza davamlılıq" : "tozdan qismən qorunur",
+      "Şəkil sabitləşdirilməsi" : "EIS",
+      "Daxili yaddaş" : "64 GB\n128 GB",
+      "NFC" : "",
+      "Maksimum ekran parlaqlığı" : "1200 nit",
+      "Ekran gövdə faizi" : "85.6 %",
+      "Rəng" : "Glacier Blue\nDark Nebula\nGradient Bronze\nOnyx Gray",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "30",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "Nano-SIM",
+      "İstehsal ili" : "2021",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Üz oxuyucu\nBarmaq izi oxuyucu (yanda)",
+      "Suya və toza davamlılıq standartı" : "IP53",
+      "SIM kart sayı" : "2",
+      "Suya davamlı" : ""
+    }
+  }
+}, {
+  "brand" : "Samsung",
+  "title" : "Samsung Galaxy A13 xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : "64 GB",
+    "color" : "White",
+    "price" : "429.00",
+    "currency" : "AZN",
+    "seller" : "Smarton",
+    "website" : "smarton.az"
+  }, {
+    "storage" : "64 GB",
+    "color" : "Blue",
+    "price" : "429.00",
+    "currency" : "AZN",
+    "seller" : "Smarton",
+    "website" : ""
+  }, {
+    "storage" : "128 GB",
+    "color" : "White",
+    "price" : "429.00",
+    "currency" : "AZN",
+    "seller" : "Smarton",
+    "website" : ""
+  }, {
+    "storage" : "128 GB",
+    "color" : "Blue",
+    "price" : "429.00",
+    "currency" : "AZN",
+    "seller" : "Smarton",
+    "website" : ""
+  } ],
+  "specifications" : {
+    "operating_system" : "One UI 5.1\nAndroid 12",
+    "processor" : "Exynos 850",
+    "max_processor_speed" : "2.0 GHz",
+    "processor_count" : "8",
+    "graphic_processor" : "Mali-G52",
+    "screen_size" : "6.6 inç",
+    "screen_type" : "LCD",
+    "refresh_rate" : "60 Hz",
+    "resolution" : "1080 x 2408 px",
+    "back_camera_mp" : "50 MP",
+    "back_camera_count" : "4",
+    "front_camera_mp" : "8 MP",
+    "video_resolution" : "1080p",
+    "ram" : "3 GB\n4 GB\n6 GB",
+    "battery" : "5000 mAh",
+    "weight" : "195 qram",
+    "dimensions" : {
+      "thickness" : "8.8 mm",
+      "length" : "165.1 mm",
+      "width" : "76.4 mm"
+    },
+    "additional_specs" : {
+      "Suya davamlılıq" : "suya qarşı qorunmur",
+      "Ekran qorunması" : "Corning Gorilla Glass 5",
+      "Yaddaş kartı dəstəyi" : "",
+      "Toza davamlılıq" : "toza qarşı qorunmur",
+      "Şəkil sabitləşdirilməsi" : "Yoxdur",
+      "Daxili yaddaş" : "32 GB\n64 GB\n128 GB",
+      "NFC" : "",
+      "Ekran gövdə faizi" : "83.2 %",
+      "Rəng" : "Peach\nBlack\nBlue\nWhite",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "30",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "Nano-SIM",
+      "İstehsal ili" : "2022",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Barmaq izi oxuyucu (yanda)\nÜz oxuyucu",
+      "Suya və toza davamlılıq standartı" : "IP00",
+      "SIM kart sayı" : "1\n2",
+      "Suya davamlı" : ""
+    }
+  }
+}, {
+  "brand" : "Apple",
+  "title" : "iPhone 15 Pro xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : "256 GB",
+    "color" : "Blue Titanium",
+    "price" : "2449.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : "birmarket.az"
+  }, {
+    "storage" : "256 GB",
+    "color" : "Natural Titanium",
+    "price" : "2449.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "256 GB",
+    "color" : "Black Titanium",
+    "price" : "2449.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "128 GB",
+    "color" : "Blue Titanium",
+    "price" : "2449.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "128 GB",
+    "color" : "Natural Titanium",
+    "price" : "2449.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "128 GB",
+    "color" : "Black Titanium",
+    "price" : "2449.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  } ],
+  "specifications" : {
+    "operating_system" : "iOS 17",
+    "processor" : "Apple A17 Pro",
+    "max_processor_speed" : "3.78 GHz",
+    "processor_count" : "6",
+    "graphic_processor" : "Apple GPU (6-core graphics)",
+    "screen_size" : "6.1 inç",
+    "screen_type" : "OLED",
+    "refresh_rate" : "120 Hz",
+    "resolution" : "1179 x 2556 px",
+    "back_camera_mp" : "48 MP",
+    "back_camera_count" : "3",
+    "front_camera_mp" : "12 MP",
+    "video_resolution" : "4K",
+    "ram" : "8 GB",
+    "battery" : "3274 mAh",
+    "weight" : "187 qram",
+    "dimensions" : {
+      "thickness" : "8.3 mm",
+      "length" : "146.6 mm",
+      "width" : "70.6 mm"
+    },
+    "additional_specs" : {
+      "Suya davamlılıq" : "uzun müddətli suya batmaya qarşı qorunur",
+      "Ekran qorunması" : "Corning Ceramic Shield Glass",
+      "Yaddaş kartı dəstəyi" : "",
+      "Toza davamlılıq" : "tam tozkeçirməz",
+      "Şəkil sabitləşdirilməsi" : "Sensor-Shift OIS",
+      "Daxili yaddaş" : "128 GB\n256 GB\n512 GB\n1 TB",
+      "NFC" : "",
+      "Maksimum ekran parlaqlığı" : "2000 nit",
+      "Ekran gövdə faizi" : "88.2 %",
+      "Rəng" : "Natural Titanium\nBlue Titanium\nWhite Titanium\nBlack Titanium",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "60",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "Nano-SIM\neSIM",
+      "İstehsal ili" : "2023",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Üz oxuyucu",
+      "Suya və toza davamlılıq standartı" : "IP68",
+      "SIM kart sayı" : "2",
+      "Suya davamlı" : ""
+    }
+  }
+}, {
+  "brand" : "Samsung",
+  "title" : "Samsung Galaxy A55 xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : "128 GB",
+    "color" : "Navy",
+    "price" : "668.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : "birmarket.az"
+  }, {
+    "storage" : "128 GB",
+    "color" : "Iceblue",
+    "price" : "668.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "256 GB",
+    "color" : "Navy",
+    "price" : "668.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "256 GB",
+    "color" : "Iceblue",
+    "price" : "668.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  } ],
+  "specifications" : {
+    "operating_system" : "One UI 6.1\nAndroid 14",
+    "processor" : "Exynos 1480",
+    "max_processor_speed" : "2.75 GHz",
+    "processor_count" : "4",
+    "graphic_processor" : "Xclipse 530",
+    "screen_size" : "6.6 inç",
+    "screen_type" : "AMOLED",
+    "refresh_rate" : "120 Hz",
+    "resolution" : "1080 x 2340 px",
+    "back_camera_mp" : "50 MP",
+    "back_camera_count" : "3",
+    "front_camera_mp" : "32 MP",
+    "video_resolution" : "4K",
+    "ram" : "8 GB\n12 GB",
+    "battery" : "5000 mAh",
+    "weight" : "213 qram",
+    "dimensions" : {
+      "thickness" : "8.2 mm",
+      "length" : "161.1 mm",
+      "width" : "77.4 mm"
+    },
+    "additional_specs" : {
+      "Suya davamlılıq" : "qısa müddətli (30 dəq) suya batmaya qarşı qorunur",
+      "Ekran qorunması" : "Corning Gorilla Glass Victus+",
+      "Yaddaş kartı dəstəyi" : "",
+      "Toza davamlılıq" : "tam tozkeçirməz",
+      "Şəkil sabitləşdirilməsi" : "OIS",
+      "Daxili yaddaş" : "128 GB\n256 GB",
+      "NFC" : "",
+      "Maksimum ekran parlaqlığı" : "1000 nit",
+      "Ekran gövdə faizi" : "85.8 %",
+      "Rəng" : "Lemon\nLilac\nIceblue\nNavy",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "30",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "Nano-SIM\neSIM",
+      "İstehsal ili" : "2024",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Barmaq izi oxuyucu (ekranda)\nÜz oxuyucu",
+      "Suya və toza davamlılıq standartı" : "IP67",
+      "SIM kart sayı" : "2",
+      "Suya davamlı" : ""
+    }
+  }
+}, {
+  "brand" : "Apple",
+  "title" : "iPhone 16 Pro Max xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : "256 GB",
+    "color" : "Natural Titanium",
+    "price" : "2849.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : "birmarket.az"
+  }, {
+    "storage" : "256 GB",
+    "color" : "Black Titanium",
+    "price" : "2849.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "256 GB",
+    "color" : "Desert Titanium",
+    "price" : "2849.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "256 GB",
+    "color" : "White Titanium",
+    "price" : "2849.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "512 GB",
+    "color" : "Natural Titanium",
+    "price" : "2849.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "512 GB",
+    "color" : "Black Titanium",
+    "price" : "2849.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "512 GB",
+    "color" : "Desert Titanium",
+    "price" : "2849.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "512 GB",
+    "color" : "White Titanium",
+    "price" : "2849.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "1 TB",
+    "color" : "Natural Titanium",
+    "price" : "2849.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "1 TB",
+    "color" : "Black Titanium",
+    "price" : "2849.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "1 TB",
+    "color" : "Desert Titanium",
+    "price" : "2849.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "1 TB",
+    "color" : "White Titanium",
+    "price" : "2849.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  } ],
+  "specifications" : {
+    "operating_system" : "iOS 18",
+    "processor" : "Apple A18 Pro",
+    "max_processor_speed" : "4.05 GHz",
+    "processor_count" : "6",
+    "graphic_processor" : "Apple GPU (6-core graphics)",
+    "screen_size" : "6.9 inç",
+    "screen_type" : "OLED",
+    "refresh_rate" : "120 Hz",
+    "resolution" : "1328 x 2878 px",
+    "back_camera_mp" : "48 MP",
+    "back_camera_count" : "3",
+    "front_camera_mp" : "12 MP",
+    "video_resolution" : "4K",
+    "ram" : "8 GB",
+    "battery" : "4676 mAh",
+    "weight" : "225 qram",
+    "dimensions" : {
+      "thickness" : "8.3 mm",
+      "length" : "163 mm",
+      "width" : "77.6 mm"
+    },
+    "additional_specs" : {
+      "Suya davamlılıq" : "uzun müddətli suya batmaya qarşı qorunur",
+      "Ekran qorunması" : "Corning Ceramic Shield Glass",
+      "Yaddaş kartı dəstəyi" : "",
+      "Toza davamlılıq" : "tam tozkeçirməz",
+      "Şəkil sabitləşdirilməsi" : "Sensor-Shift OIS",
+      "Daxili yaddaş" : "256 GB\n512 GB\n1 TB",
+      "NFC" : "",
+      "Maksimum ekran parlaqlığı" : "2000 nit",
+      "Ekran gövdə faizi" : "91.4 %",
+      "Rəng" : "Natural Titanium\nBlue Titanium\nWhite Titanium\nBlack Titanium\nDesert Titanium",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "120",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "Nano-SIM\neSIM",
+      "İstehsal ili" : "2024",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Üz oxuyucu",
+      "Suya və toza davamlılıq standartı" : "IP68",
+      "SIM kart sayı" : "2",
+      "Suya davamlı" : ""
+    }
+  }
+}, {
+  "brand" : "Xiaomi",
+  "title" : "Xiaomi Redmi 12 xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : null,
+    "color" : null,
+    "price" : "449.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : "birmarket.az"
+  } ],
+  "specifications" : {
+    "operating_system" : "HyperOS\nAndroid 13",
+    "processor" : "Mediatek MT6769H Helio G88",
+    "max_processor_speed" : "2.0 GHz",
+    "processor_count" : "8",
+    "graphic_processor" : "Mali-G52 MC2",
+    "screen_size" : "6.79 inç",
+    "screen_type" : "LCD",
+    "refresh_rate" : "90 Hz",
+    "resolution" : "1080 x 2460 px",
+    "back_camera_mp" : "50 MP",
+    "back_camera_count" : "3",
+    "front_camera_mp" : "8 MP",
+    "video_resolution" : "1080p",
+    "ram" : "4 GB\n6 GB\n8 GB",
+    "battery" : "5000 mAh",
+    "weight" : "198.5 qram",
+    "dimensions" : {
+      "thickness" : "8.2 mm",
+      "length" : "168.6 mm",
+      "width" : "76.3 mm"
+    },
+    "additional_specs" : {
+      "Suya davamlılıq" : "su çilənməsinə qarşı qorunur",
+      "Yaddaş kartı dəstəyi" : "",
+      "Toza davamlılıq" : "tozdan qismən qorunur",
+      "Şəkil sabitləşdirilməsi" : "Yoxdur",
+      "Daxili yaddaş" : "128 GB\n256 GB",
+      "NFC" : "",
+      "Maksimum ekran parlaqlığı" : "550 nit",
+      "Ekran gövdə faizi" : "85.1 %",
+      "Rəng" : "Moonstone Silver\nPolar Silver\nMidnight Black\nSky Blue",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "30",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "Nano-SIM",
+      "İstehsal ili" : "2023",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Barmaq izi oxuyucu (yanda)\nÜz oxuyucu",
+      "Suya və toza davamlılıq standartı" : "IP53",
+      "SIM kart sayı" : "2",
+      "Suya davamlı" : ""
+    }
+  }
+}, {
+  "brand" : "Samsung",
+  "title" : "Samsung Galaxy A54 xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : null,
+    "color" : "Lime",
+    "price" : "649.99",
+    "currency" : "AZN",
+    "seller" : "Elit Optimal",
+    "website" : "elitoptimal.az"
+  }, {
+    "storage" : null,
+    "color" : "Violet",
+    "price" : "649.99",
+    "currency" : "AZN",
+    "seller" : "Elit Optimal",
+    "website" : ""
+  }, {
+    "storage" : null,
+    "color" : "Graphite",
+    "price" : "649.99",
+    "currency" : "AZN",
+    "seller" : "Elit Optimal",
+    "website" : ""
+  } ],
+  "specifications" : {
+    "operating_system" : "Android 13\nOne UI 6.1",
+    "processor" : "Exynos 1380",
+    "max_processor_speed" : "2.4 GHz",
+    "processor_count" : "8",
+    "graphic_processor" : "Mali-G68 MP5",
+    "screen_size" : "6.4 inç",
+    "screen_type" : "AMOLED",
+    "refresh_rate" : "120 Hz",
+    "resolution" : "1080 x 2340 px",
+    "back_camera_mp" : "50 MP",
+    "back_camera_count" : "3",
+    "front_camera_mp" : "32 MP",
+    "video_resolution" : "4K",
+    "ram" : "6 GB\n8 GB",
+    "battery" : "5000 mAh",
+    "weight" : "202 qram",
+    "dimensions" : {
+      "thickness" : "8.2 mm",
+      "length" : "158.2 mm",
+      "width" : "76.7 mm"
+    },
+    "additional_specs" : {
+      "Suya davamlılıq" : "qısa müddətli (30 dəq) suya batmaya qarşı qorunur",
+      "Ekran qorunması" : "Corning Gorilla Glass 5",
+      "Yaddaş kartı dəstəyi" : "",
+      "Toza davamlılıq" : "tam tozkeçirməz",
+      "Şəkil sabitləşdirilməsi" : "OIS",
+      "Daxili yaddaş" : "128 GB\n256 GB",
+      "NFC" : "",
+      "Maksimum ekran parlaqlığı" : "1000 nit",
+      "Ekran gövdə faizi" : "82.9 %",
+      "Rəng" : "Graphite\nWhite\nViolet\nLime",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "30",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "eSIM\nNano-SIM",
+      "İstehsal ili" : "2023",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Üz oxuyucu\nBarmaq izi oxuyucu (ekranda)",
+      "Suya və toza davamlılıq standartı" : "IP67",
+      "SIM kart sayı" : "2",
+      "Suya davamlı" : ""
+    }
+  }
+}, {
+  "brand" : "Samsung",
+  "title" : "Samsung Galaxy S23 xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : "128 GB",
+    "color" : "Green",
+    "price" : "1209.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : "birmarket.az"
+  }, {
+    "storage" : "128 GB",
+    "color" : "Phantom Black",
+    "price" : "1209.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "256 GB",
+    "color" : "Green",
+    "price" : "1209.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  }, {
+    "storage" : "256 GB",
+    "color" : "Phantom Black",
+    "price" : "1209.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : ""
+  } ],
+  "specifications" : {
+    "operating_system" : "One UI 6.1.1\nAndroid 13",
+    "processor" : "Qualcomm SM8550-AC Snapdragon 8 Gen 2",
+    "max_processor_speed" : "3.36 GHz",
+    "processor_count" : "8",
+    "graphic_processor" : "Adreno 740",
+    "screen_size" : "6.1 inç",
+    "screen_type" : "AMOLED",
+    "refresh_rate" : "120 Hz",
+    "resolution" : "1080 x 2340 px",
+    "back_camera_mp" : "50 MP",
+    "back_camera_count" : "3",
+    "front_camera_mp" : "12 MP",
+    "video_resolution" : "8K",
+    "ram" : "8 GB",
+    "battery" : "3900 mAh",
+    "weight" : "168 qram",
+    "dimensions" : {
+      "thickness" : "7.6 mm",
+      "length" : "146.3 mm",
+      "width" : "70.9 mm"
+    },
+    "additional_specs" : {
+      "Suya davamlılıq" : "uzun müddətli suya batmaya qarşı qorunur",
+      "Ekran qorunması" : "Corning Gorilla Glass Victus 2",
+      "Yaddaş kartı dəstəyi" : "",
+      "Toza davamlılıq" : "tam tozkeçirməz",
+      "Şəkil sabitləşdirilməsi" : "OIS",
+      "Daxili yaddaş" : "128 GB\n256 GB\n512 GB",
+      "NFC" : "",
+      "Maksimum ekran parlaqlığı" : "1750 nit",
+      "Ekran gövdə faizi" : "86.8 %",
+      "Rəng" : "Phantom Black\nCream\nLime\nLavender\nGreen\nGraphite",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "30",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "eSIM\nNano-SIM",
+      "İstehsal ili" : "2023",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Üz oxuyucu\nBarmaq izi oxuyucu (ekranda)",
+      "Suya və toza davamlılıq standartı" : "IP68",
+      "SIM kart sayı" : "2",
+      "Suya davamlı" : ""
+    }
+  }
+}, {
+  "brand" : "Apple",
+  "title" : "iPhone 14 xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : "128 GB",
+    "color" : "Midnight",
+    "price" : "1449.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "128 GB",
+    "color" : "Red",
+    "price" : "1449.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "128 GB",
+    "color" : "Starlight",
+    "price" : "1449.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "128 GB",
+    "color" : "Blue",
+    "price" : "1449.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "128 GB",
+    "color" : "Yellow",
+    "price" : "1449.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "128 GB",
+    "color" : "Purple",
+    "price" : "1449.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "256 GB",
+    "color" : "Midnight",
+    "price" : "1449.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "256 GB",
+    "color" : "Red",
+    "price" : "1449.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "256 GB",
+    "color" : "Starlight",
+    "price" : "1449.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "256 GB",
+    "color" : "Blue",
+    "price" : "1449.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "256 GB",
+    "color" : "Yellow",
+    "price" : "1449.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "256 GB",
+    "color" : "Purple",
+    "price" : "1449.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  } ],
+  "specifications" : {
+    "operating_system" : "iOS 16",
+    "processor" : "Apple A15 Bionic",
+    "max_processor_speed" : "3.23 GHz",
+    "processor_count" : "6",
+    "graphic_processor" : "Apple GPU (5-core graphics)",
+    "screen_size" : "6.1 inç",
+    "screen_type" : "OLED",
+    "refresh_rate" : "60 Hz",
+    "resolution" : "1170 x 2532 px",
+    "back_camera_mp" : "12 MP",
+    "back_camera_count" : "2",
+    "front_camera_mp" : "12 MP",
+    "video_resolution" : "4K",
+    "ram" : "6 GB",
+    "battery" : "3279 mAh",
+    "weight" : "172 qram",
+    "dimensions" : {
+      "thickness" : "7.8 mm",
+      "length" : "146.7 mm",
+      "width" : "71.5 mm"
+    },
+    "additional_specs" : {
+      "Suya davamlılıq" : "uzun müddətli suya batmaya qarşı qorunur",
+      "Ekran qorunması" : "Corning Ceramic Shield Glass",
+      "Yaddaş kartı dəstəyi" : "",
+      "Toza davamlılıq" : "tam tozkeçirməz",
+      "Şəkil sabitləşdirilməsi" : "Sensor-Shift OIS",
+      "Daxili yaddaş" : "128 GB\n256 GB\n512 GB",
+      "NFC" : "",
+      "Maksimum ekran parlaqlığı" : "1200 nit",
+      "Ekran gövdə faizi" : "86.0 %",
+      "Rəng" : "Starlight\nMidnight\nPurple\nBlue\nRed\nYellow",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "60",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "eSIM\nNano-SIM",
+      "İstehsal ili" : "2022",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Üz oxuyucu",
+      "Suya və toza davamlılıq standartı" : "IP68",
+      "SIM kart sayı" : "2",
+      "Suya davamlı" : ""
+    }
+  }
+}, {
+  "brand" : "Samsung",
+  "title" : "Samsung Galaxy A23 xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : "64 GB",
+    "color" : "Black",
+    "price" : "459.00",
+    "currency" : "AZN",
+    "seller" : "Smarton",
+    "website" : "smarton.az"
+  }, {
+    "storage" : "64 GB",
+    "color" : "White",
+    "price" : "459.00",
+    "currency" : "AZN",
+    "seller" : "Smarton",
+    "website" : ""
+  }, {
+    "storage" : "128 GB",
+    "color" : "Black",
+    "price" : "459.00",
+    "currency" : "AZN",
+    "seller" : "Smarton",
+    "website" : ""
+  }, {
+    "storage" : "128 GB",
+    "color" : "White",
+    "price" : "459.00",
+    "currency" : "AZN",
+    "seller" : "Smarton",
+    "website" : ""
+  } ],
+  "specifications" : {
+    "operating_system" : "One UI 5.1\nAndroid 12",
+    "processor" : "Qualcomm SM6225 Snapdragon 680 4G",
+    "max_processor_speed" : "2.4 GHz",
+    "processor_count" : "8",
+    "graphic_processor" : "Adreno 610",
+    "screen_size" : "6.6 inç",
+    "screen_type" : "LCD",
+    "refresh_rate" : "90 Hz",
+    "resolution" : "1080 x 2408 px",
+    "back_camera_mp" : "50 MP",
+    "back_camera_count" : "4",
+    "front_camera_mp" : "8 MP",
+    "video_resolution" : "1080p",
+    "ram" : "4 GB\n6 GB\n8 GB",
+    "battery" : "5000 mAh",
+    "weight" : "195 qram",
+    "dimensions" : {
+      "thickness" : "8.4 mm",
+      "length" : "164.5 mm",
+      "width" : "76.9 mm"
+    },
+    "additional_specs" : {
+      "Suya davamlılıq" : "suya qarşı qorunmur",
+      "Ekran qorunması" : "Corning Gorilla Glass 5",
+      "Yaddaş kartı dəstəyi" : "",
+      "Toza davamlılıq" : "toza qarşı qorunmur",
+      "Şəkil sabitləşdirilməsi" : "OIS",
+      "Daxili yaddaş" : "64 GB\n128 GB",
+      "NFC" : "",
+      "Ekran gövdə faizi" : "82.5 %",
+      "Rəng" : "Peach\nBlack\nBlue\nWhite",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "30",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "Nano-SIM",
+      "İstehsal ili" : "2022",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Barmaq izi oxuyucu (yanda)\nÜz oxuyucu",
+      "Suya və toza davamlılıq standartı" : "IP00",
+      "SIM kart sayı" : "2",
+      "Suya davamlı" : ""
+    }
+  }
+}, {
+  "brand" : "Apple",
+  "title" : "iPhone 17 Pro Max xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : "256 GB",
+    "color" : "Cosmic Orange",
+    "price" : "3529.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "256 GB",
+    "color" : "Deep Blue",
+    "price" : "3529.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "256 GB",
+    "color" : "Silver",
+    "price" : "3529.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "512 GB",
+    "color" : "Cosmic Orange",
+    "price" : "3529.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "512 GB",
+    "color" : "Deep Blue",
+    "price" : "3529.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "512 GB",
+    "color" : "Silver",
+    "price" : "3529.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "1 TB",
+    "color" : "Cosmic Orange",
+    "price" : "3529.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "1 TB",
+    "color" : "Deep Blue",
+    "price" : "3529.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "1 TB",
+    "color" : "Silver",
+    "price" : "3529.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "2 TB",
+    "color" : "Cosmic Orange",
+    "price" : "3529.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "2 TB",
+    "color" : "Deep Blue",
+    "price" : "3529.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "2 TB",
+    "color" : "Silver",
+    "price" : "3529.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  } ],
+  "specifications" : {
+    "operating_system" : "iOS 26",
+    "processor" : "Apple A19 Pro",
+    "max_processor_speed" : null,
+    "processor_count" : "6",
+    "graphic_processor" : "Apple GPU (6-Core)",
+    "screen_size" : "6.9 inç",
+    "screen_type" : "OLED",
+    "refresh_rate" : "120 Hz",
+    "resolution" : "1320 x 2868 px",
+    "back_camera_mp" : "48 MP",
+    "back_camera_count" : "3",
+    "front_camera_mp" : "24 MP",
+    "video_resolution" : "4K",
+    "ram" : "12 GB",
+    "battery" : "4832 mAh",
+    "weight" : "233 qram",
+    "dimensions" : {
+      "thickness" : "8.8 mm",
+      "length" : "163.4 mm",
+      "width" : "78 mm"
+    },
+    "additional_specs" : {
+      "Suya davamlılıq" : "uzun müddətli suya batmaya qarşı qorunur",
+      "Ekran qorunması" : "Corning Ceramic Shield 2",
+      "Yaddaş kartı dəstəyi" : "",
+      "Toza davamlılıq" : "tam tozkeçirməz",
+      "Şəkil sabitləşdirilməsi" : "Sensor-Shift OIS",
+      "Daxili yaddaş" : "256 GB\n512 GB\n1 TB\n2 TB",
+      "NFC" : "",
+      "Maksimum ekran parlaqlığı" : "3000 nit",
+      "Ekran gövdə faizi" : "90.7 %",
+      "Rəng" : "Silver\nCosmic Orange\nDeep Blue",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "120",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "eSIM\nNano-SIM",
+      "İstehsal ili" : "2025",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Üz oxuyucu",
+      "Suya və toza davamlılıq standartı" : "IP68",
+      "SIM kart sayı" : "2",
+      "Suya davamlı" : ""
+    }
+  }
+}, {
+  "brand" : "Xiaomi",
+  "title" : "Xiaomi Redmi Note 12 4G xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : null,
+    "color" : "Mint Green",
+    "price" : "499.00",
+    "currency" : "AZN",
+    "seller" : "Smarton",
+    "website" : "smarton.az"
+  }, {
+    "storage" : null,
+    "color" : "Ice Blue",
+    "price" : "499.00",
+    "currency" : "AZN",
+    "seller" : "Smarton",
+    "website" : ""
+  }, {
+    "storage" : null,
+    "color" : "Onyx Gray",
+    "price" : "499.00",
+    "currency" : "AZN",
+    "seller" : "Smarton",
+    "website" : ""
+  } ],
+  "specifications" : {
+    "operating_system" : "HyperOS\nAndroid 13",
+    "processor" : "Qualcomm SM6225 Snapdragon 685",
+    "max_processor_speed" : "2.8 GHz",
+    "processor_count" : "8",
+    "graphic_processor" : "Adreno 610",
+    "screen_size" : "6.67 inç",
+    "screen_type" : "AMOLED",
+    "refresh_rate" : "120 Hz",
+    "resolution" : "1080 x 2400 px",
+    "back_camera_mp" : "50 MP",
+    "back_camera_count" : "3",
+    "front_camera_mp" : "13 MP",
+    "video_resolution" : "1080p",
+    "ram" : "4 GB\n6 GB\n8 GB",
+    "battery" : "5000 mAh",
+    "weight" : "183.5 qram",
+    "dimensions" : {
+      "thickness" : "7.9 mm",
+      "length" : "165.7 mm",
+      "width" : "76 mm"
+    },
+    "additional_specs" : {
+      "Suya davamlılıq" : "su çilənməsinə qarşı qorunur",
+      "Ekran qorunması" : "Corning Gorilla Glass 3",
+      "Yaddaş kartı dəstəyi" : "",
+      "Toza davamlılıq" : "tozdan qismən qorunur",
+      "Şəkil sabitləşdirilməsi" : "EIS",
+      "Daxili yaddaş" : "64 GB\n128 GB\n256 GB",
+      "NFC" : "",
+      "Maksimum ekran parlaqlığı" : "1200 nit",
+      "Ekran gövdə faizi" : "85.3 %",
+      "Rəng" : "Onyx Gray\nMint Green\nSunrise Gold\nIce Blue",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "30",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "Nano-SIM",
+      "İstehsal ili" : "2023",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Barmaq izi oxuyucu (yanda)\nÜz oxuyucu",
+      "Suya və toza davamlılıq standartı" : "IP53",
+      "SIM kart sayı" : "2",
+      "Suya davamlı" : ""
+    }
+  }
+}, {
+  "brand" : "Apple",
+  "title" : "iPhone 6s xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : null,
+    "color" : null,
+    "price" : "619.99",
+    "currency" : "AZN",
+    "seller" : "Soliton",
+    "website" : null
+  } ],
+  "specifications" : {
+    "operating_system" : "iOS 9",
+    "processor" : "Apple A9",
+    "max_processor_speed" : "1.84 GHz",
+    "processor_count" : "2",
+    "graphic_processor" : "PowerVR GT7600",
+    "screen_size" : "4.7 inç",
+    "screen_type" : "IPS",
+    "refresh_rate" : "60 Hz",
+    "resolution" : "750 x 1334 px",
+    "back_camera_mp" : "12 MP",
+    "back_camera_count" : "1",
+    "front_camera_mp" : "5 MP",
+    "video_resolution" : "4K",
+    "ram" : "2 GB",
+    "battery" : "1715 mAh",
+    "weight" : "143 qram",
+    "dimensions" : {
+      "thickness" : "7.1 mm",
+      "length" : "138.3 mm",
+      "width" : "67.1 mm"
+    },
+    "additional_specs" : {
+      "Gözləmə rejimində iş müddəti" : "250 saat",
+      "Yaddaş kartı dəstəyi" : "",
+      "Şəkil sabitləşdirilməsi" : "EIS",
+      "Daxili yaddaş" : "16 GB\n32 GB\n64 GB\n128 GB",
+      "NFC" : "",
+      "Maksimum ekran parlaqlığı" : "500 nit",
+      "Ekran gövdə faizi" : "65.6 %",
+      "Rəng" : "Gold\nRose Gold\nSilver\nSpace Gray",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "30",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "Nano-SIM",
+      "İstehsal ili" : "2015",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Barmaq izi oxuyucu (ekranda)\nÜz oxuyucu",
+      "SIM kart sayı" : "1",
+      "Suya davamlı" : "",
+      "Danışıq rejimində iş müddəti" : "14 saat"
+    }
+  }
+}, {
+  "brand" : "Xiaomi",
+  "title" : "Xiaomi Mi 11 Ultra xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : null,
+    "color" : null,
+    "price" : "1659.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : "birmarket.az"
+  } ],
+  "specifications" : {
+    "operating_system" : "Android 11\nMIUI 14",
+    "processor" : "Qualcomm SM8350 Snapdragon 888 5G",
+    "max_processor_speed" : "2.84 GHz",
+    "processor_count" : "8",
+    "graphic_processor" : "Adreno 660",
+    "screen_size" : "6.81 inç",
+    "screen_type" : "AMOLED",
+    "refresh_rate" : "120 Hz",
+    "resolution" : "1440 x 3200 px",
+    "back_camera_mp" : "50 MP",
+    "back_camera_count" : "3",
+    "front_camera_mp" : "20 MP",
+    "video_resolution" : "8K",
+    "ram" : "8 GB\n12 GB",
+    "battery" : "5000 mAh",
+    "weight" : "234 qram",
+    "dimensions" : {
+      "thickness" : "8.4 mm",
+      "length" : "164.3 mm",
+      "width" : "74.6 mm"
+    },
+    "additional_specs" : {
+      "Suya davamlılıq" : "uzun müddətli suya batmaya qarşı qorunur",
+      "Ekran qorunması" : "Corning Gorilla Glass Victus",
+      "Yaddaş kartı dəstəyi" : "",
+      "Toza davamlılıq" : "tam tozkeçirməz",
+      "Şəkil sabitləşdirilməsi" : "OIS + EIS",
+      "Daxili yaddaş" : "256 GB\n512 GB",
+      "NFC" : "",
+      "Maksimum ekran parlaqlığı" : "1700 nit",
+      "Ekran gövdə faizi" : "91.4 %",
+      "Rəng" : "Ceramic Black\nCeramic White",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "24",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "Nano-SIM",
+      "İstehsal ili" : "2021",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Üz oxuyucu\nBarmaq izi oxuyucu (ekranda)",
+      "Suya və toza davamlılıq standartı" : "IP68",
+      "SIM kart sayı" : "2",
+      "Suya davamlı" : ""
+    }
+  }
+}, {
+  "brand" : "Apple",
+  "title" : "iPhone 15 xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : "128 GB",
+    "color" : "Black",
+    "price" : "1679.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "128 GB",
+    "color" : "Blue",
+    "price" : "1679.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "128 GB",
+    "color" : "Pink",
+    "price" : "1679.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "128 GB",
+    "color" : "Green",
+    "price" : "1679.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "128 GB",
+    "color" : "Yellow",
+    "price" : "1679.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "256 GB",
+    "color" : "Black",
+    "price" : "1679.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "256 GB",
+    "color" : "Blue",
+    "price" : "1679.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "256 GB",
+    "color" : "Pink",
+    "price" : "1679.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "256 GB",
+    "color" : "Green",
+    "price" : "1679.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  }, {
+    "storage" : "256 GB",
+    "color" : "Yellow",
+    "price" : "1679.99",
+    "currency" : "AZN",
+    "seller" : "Kontakt",
+    "website" : null
+  } ],
+  "specifications" : {
+    "operating_system" : "iOS 17",
+    "processor" : "Apple A16 Bionic",
+    "max_processor_speed" : "3.46 GHz",
+    "processor_count" : "6",
+    "graphic_processor" : "Apple GPU (5-core graphics)",
+    "screen_size" : "6.1 inç",
+    "screen_type" : "OLED",
+    "refresh_rate" : "60 Hz",
+    "resolution" : "1179 x 2556 px",
+    "back_camera_mp" : "48 MP",
+    "back_camera_count" : "2",
+    "front_camera_mp" : "12 MP",
+    "video_resolution" : "4K",
+    "ram" : "6 GB",
+    "battery" : "3349 mAh",
+    "weight" : "171 qram",
+    "dimensions" : {
+      "thickness" : "7.8 mm",
+      "length" : "147.6 mm",
+      "width" : "71.6 mm"
+    },
+    "additional_specs" : {
+      "Suya davamlılıq" : "uzun müddətli suya batmaya qarşı qorunur",
+      "Ekran qorunması" : "Corning Ceramic Shield Glass",
+      "Yaddaş kartı dəstəyi" : "",
+      "Toza davamlılıq" : "tam tozkeçirməz",
+      "Şəkil sabitləşdirilməsi" : "Sensor-Shift OIS",
+      "Daxili yaddaş" : "128 GB\n256 GB\n512 GB",
+      "NFC" : "",
+      "Maksimum ekran parlaqlığı" : "2000 nit",
+      "Ekran gövdə faizi" : "86.4 %",
+      "Rəng" : "Black\nYellow\nPink\nGreen\nBlue",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "60",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "eSIM\nNano-SIM",
+      "İstehsal ili" : "2023",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Üz oxuyucu",
+      "Suya və toza davamlılıq standartı" : "IP68",
+      "SIM kart sayı" : "2",
+      "Suya davamlı" : ""
+    }
+  }
+}, {
+  "brand" : "Xiaomi",
+  "title" : "Xiaomi Redmi Note 11 Pro 5G xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : null,
+    "color" : null,
+    "price" : "449.00",
+    "currency" : "AZN",
+    "seller" : "Umico",
+    "website" : "birmarket.az"
+  } ],
+  "specifications" : {
+    "operating_system" : "MIUI 13\nAndroid 11",
+    "processor" : "Qualcomm SM6375 Snapdragon 695 5G",
+    "max_processor_speed" : "2.2 GHz",
+    "processor_count" : "8",
+    "graphic_processor" : "Adreno 619",
+    "screen_size" : "6.67 inç",
+    "screen_type" : "AMOLED",
+    "refresh_rate" : "120 Hz",
+    "resolution" : "1080 x 2400 px",
+    "back_camera_mp" : "108 MP",
+    "back_camera_count" : "3",
+    "front_camera_mp" : "16 MP",
+    "video_resolution" : "1080p",
+    "ram" : "4 GB\n6 GB\n8 GB",
+    "battery" : "5000 mAh",
+    "weight" : "202 qram",
+    "dimensions" : {
+      "thickness" : "8.1 mm",
+      "length" : "164.2 mm",
+      "width" : "76.1 mm"
+    },
+    "additional_specs" : {
+      "Suya davamlılıq" : "su çilənməsinə qarşı qorunur",
+      "Ekran qorunması" : "Corning Gorilla Glass 5",
+      "Yaddaş kartı dəstəyi" : "",
+      "Toza davamlılıq" : "tozdan qismən qorunur",
+      "Şəkil sabitləşdirilməsi" : "EIS",
+      "Daxili yaddaş" : "64 GB\n128 GB",
+      "NFC" : "",
+      "Maksimum ekran parlaqlığı" : "1200 nit",
+      "Ekran gövdə faizi" : "86.0 %",
+      "Rəng" : "Atlantic Blue\nGraphite Gray\nStar Blue\nPolar White",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "30",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "Nano-SIM",
+      "İstehsal ili" : "2022",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Barmaq izi oxuyucu (yanda)\nÜz oxuyucu",
+      "Suya və toza davamlılıq standartı" : "IP53",
+      "SIM kart sayı" : "2",
+      "Suya davamlı" : ""
+    }
+  }
+}, {
+  "brand" : "Honor",
+  "title" : "Honor X9b xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : null,
+    "color" : "Emerald Green",
+    "price" : "599.99",
+    "currency" : "AZN",
+    "seller" : "Soliton",
+    "website" : null
+  }, {
+    "storage" : null,
+    "color" : "Sunrise Orange",
+    "price" : "599.99",
+    "currency" : "AZN",
+    "seller" : "Soliton",
+    "website" : null
+  }, {
+    "storage" : null,
+    "color" : "Midnight Black",
+    "price" : "599.99",
+    "currency" : "AZN",
+    "seller" : "Soliton",
+    "website" : null
+  } ],
+  "specifications" : {
+    "operating_system" : "Magic OS 7.2\nAndroid 13",
+    "processor" : "Qualcomm SM6450 Snapdragon 6 Gen 1",
+    "max_processor_speed" : "2.2 GHz",
+    "processor_count" : "8",
+    "graphic_processor" : "Adreno 710",
+    "screen_size" : "6.78 inç",
+    "screen_type" : "AMOLED",
+    "refresh_rate" : "120 Hz",
+    "resolution" : "1220 x 2652 px",
+    "back_camera_mp" : "108 MP",
+    "back_camera_count" : "3",
+    "front_camera_mp" : "16 MP",
+    "video_resolution" : "4K",
+    "ram" : "8 GB\n12 GB",
+    "battery" : "5800 mAh",
+    "weight" : "185 qram",
+    "dimensions" : {
+      "thickness" : "8 mm",
+      "length" : "163.6 mm",
+      "width" : "75.5 mm"
+    },
+    "additional_specs" : {
+      "Suya davamlılıq" : "su çilənməsinə qarşı qorunur",
+      "Yaddaş kartı dəstəyi" : "",
+      "Toza davamlılıq" : "tozdan qismən qorunur",
+      "Şəkil sabitləşdirilməsi" : "EIS",
+      "Daxili yaddaş" : "256 GB",
+      "NFC" : "",
+      "Maksimum ekran parlaqlığı" : "1200 nit",
+      "Ekran gövdə faizi" : "91.2 %",
+      "Rəng" : "Midnight Black\nSunrise Orange\nEmerald Green",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "30",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "Nano-SIM",
+      "İstehsal ili" : "2023",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Barmaq izi oxuyucu (ekranda)\nÜz oxuyucu",
+      "Suya və toza davamlılıq standartı" : "IP53",
+      "SIM kart sayı" : "2",
+      "Suya davamlı" : ""
+    }
+  }
+}, {
+  "brand" : "Samsung",
+  "title" : "Samsung Galaxy A73 5G xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : null,
+    "color" : null,
+    "price" : "699.99",
+    "currency" : "AZN",
+    "seller" : "Elit Optimal",
+    "website" : "elitoptimal.az"
+  } ],
+  "specifications" : {
+    "operating_system" : "Android 12\nOne UI 6.1",
+    "processor" : "Qualcomm SM7325 Snapdragon 778G 5G",
+    "max_processor_speed" : "2.4 GHz",
+    "processor_count" : "8",
+    "graphic_processor" : "Adreno 642L",
+    "screen_size" : "6.7 inç",
+    "screen_type" : "AMOLED",
+    "refresh_rate" : "120 Hz",
+    "resolution" : "1080 x 2400 px",
+    "back_camera_mp" : "108 MP",
+    "back_camera_count" : "4",
+    "front_camera_mp" : "32 MP",
+    "video_resolution" : "4K",
+    "ram" : "6 GB\n8 GB",
+    "battery" : "5000 mAh",
+    "weight" : "181 qram",
+    "dimensions" : {
+      "thickness" : "7.6 mm",
+      "length" : "163.7 mm",
+      "width" : "76.1 mm"
+    },
+    "additional_specs" : {
+      "Suya davamlılıq" : "qısa müddətli (30 dəq) suya batmaya qarşı qorunur",
+      "Ekran qorunması" : "Corning Gorilla Glass 5",
+      "Yaddaş kartı dəstəyi" : "",
+      "Toza davamlılıq" : "tam tozkeçirməz",
+      "Şəkil sabitləşdirilməsi" : "OIS",
+      "Daxili yaddaş" : "128 GB\n256 GB",
+      "NFC" : "",
+      "Maksimum ekran parlaqlığı" : "800 nit",
+      "Ekran gövdə faizi" : "87.0 %",
+      "Rəng" : "Gray\nWhite\nMint",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "30",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "Nano-SIM",
+      "İstehsal ili" : "2022",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Üz oxuyucu\nBarmaq izi oxuyucu (ekranda)",
+      "Suya və toza davamlılıq standartı" : "IP67",
+      "SIM kart sayı" : "2",
+      "Suya davamlı" : ""
+    }
+  }
+}, {
+  "brand" : "Samsung",
+  "title" : "Samsung Galaxy A15 xüsusiyyətləri",
+  "variants" : [ {
+    "storage" : "128 GB",
+    "color" : "Magical Blue",
+    "price" : "329.99",
+    "currency" : "AZN",
+    "seller" : "Soliton",
+    "website" : null
+  }, {
+    "storage" : "128 GB",
+    "color" : "Optimistic Blue",
+    "price" : "329.99",
+    "currency" : "AZN",
+    "seller" : "Soliton",
+    "website" : null
+  }, {
+    "storage" : "128 GB",
+    "color" : "Light Blue",
+    "price" : "329.99",
+    "currency" : "AZN",
+    "seller" : "Soliton",
+    "website" : null
+  }, {
+    "storage" : "256 GB",
+    "color" : "Magical Blue",
+    "price" : "329.99",
+    "currency" : "AZN",
+    "seller" : "Soliton",
+    "website" : null
+  }, {
+    "storage" : "256 GB",
+    "color" : "Optimistic Blue",
+    "price" : "329.99",
+    "currency" : "AZN",
+    "seller" : "Soliton",
+    "website" : null
+  }, {
+    "storage" : "256 GB",
+    "color" : "Light Blue",
+    "price" : "329.99",
+    "currency" : "AZN",
+    "seller" : "Soliton",
+    "website" : null
+  } ],
+  "specifications" : {
+    "operating_system" : "Android 14\nOne UI 6.1",
+    "processor" : "Mediatek Helio G99",
+    "max_processor_speed" : "2.2 GHz",
+    "processor_count" : "8",
+    "graphic_processor" : "Mali-G57 MC2",
+    "screen_size" : "6.5 inç",
+    "screen_type" : "AMOLED",
+    "refresh_rate" : "90 Hz",
+    "resolution" : "1080 x 2340 px",
+    "back_camera_mp" : "50 MP",
+    "back_camera_count" : "3",
+    "front_camera_mp" : "13 MP",
+    "video_resolution" : "1080p",
+    "ram" : "4 GB\n6 GB\n8 GB",
+    "battery" : "5000 mAh",
+    "weight" : "200 qram",
+    "dimensions" : {
+      "thickness" : "8.4 mm",
+      "length" : "160.1 mm",
+      "width" : "76.8 mm"
+    },
+    "additional_specs" : {
+      "Suya davamlılıq" : "suya qarşı qorunmur",
+      "Yaddaş kartı dəstəyi" : "",
+      "Toza davamlılıq" : "toza qarşı qorunmur",
+      "Şəkil sabitləşdirilməsi" : "EIS",
+      "Daxili yaddaş" : "128 GB\n256 GB",
+      "NFC" : "",
+      "Maksimum ekran parlaqlığı" : "800 nit",
+      "Ekran gövdə faizi" : "84.3 %",
+      "Rəng" : "Brave Black\nOptimistic Blue\nPersonality Yellow\nMagical Blue\nLight Blue",
+      "Sensor ekran (Touchscreen)" : "",
+      "Qələm" : "",
+      "Saniyədə Kadr Sayı (FPS)" : "30",
+      "5G" : "",
+      "4G" : "",
+      "SIM kart tipi" : "Nano-SIM",
+      "İstehsal ili" : "2023",
+      "Qatlana bilən" : "",
+      "Simsiz enerji toplama" : "",
+      "Funksiyalar" : "Barmaq izi oxuyucu (yanda)\nÜz oxuyucu",
+      "SIM kart sayı" : "2",
+      "Suya davamlı" : ""
+    }
+  }
+} ]
