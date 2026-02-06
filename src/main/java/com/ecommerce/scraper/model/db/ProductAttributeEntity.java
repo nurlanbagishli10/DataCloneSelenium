@@ -14,8 +14,11 @@ public class ProductAttributeEntity {
     @JsonProperty("variant_id")
     private Long variantId;
 
-    @JsonProperty("attribute_name")
-    private String attributeName;
+    @JsonProperty("attribute_label")
+    private String attributeLabel;
+
+    @JsonProperty("attribute_key")
+    private String attributeKey;
 
     @JsonProperty("attribute_value")
     private String attributeValue;
@@ -46,11 +49,11 @@ public class ProductAttributeEntity {
         this.updatedAt = LocalDateTime.now();
     }
 
-    public ProductAttributeEntity(Long id, Long productId, String attributeName, String attributeValue) {
+    public ProductAttributeEntity(Long id, Long productId, String attributeLabel, String attributeValue) {
         this();
         this.id = id;
         this.productId = productId;
-        this.attributeName = attributeName;
+        this.attributeLabel = attributeLabel;
         this.attributeValue = attributeValue;
     }
 
@@ -79,12 +82,20 @@ public class ProductAttributeEntity {
         this.variantId = variantId;
     }
 
-    public String getAttributeName() {
-        return attributeName;
+    public String getAttributeLabel() {
+        return attributeLabel;
     }
 
-    public void setAttributeName(String attributeName) {
-        this.attributeName = attributeName;
+    public void setAttributeLabel(String attributeLabel) {
+        this.attributeLabel = attributeLabel;
+    }
+
+    public String getAttributeKey() {
+        return attributeKey;
+    }
+
+    public void setAttributeKey(String attributeKey) {
+        this.attributeKey = attributeKey;
     }
 
     public String getAttributeValue() {
