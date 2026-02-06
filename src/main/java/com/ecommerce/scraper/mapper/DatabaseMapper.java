@@ -175,6 +175,7 @@ public class DatabaseMapper {
                     variant.getStorage().trim()
             );
             storageAttr.setVariantId(variantId);
+            storageAttr.setAttributeKey(null);
             storageAttr.setAttributeType("variant");
             output.addProductAttribute(storageAttr);
         }
@@ -188,6 +189,7 @@ public class DatabaseMapper {
                     variant.getColor().trim()
             );
             colorAttr.setVariantId(variantId);
+            colorAttr.setAttributeKey(null);
             colorAttr.setAttributeType("variant");
             output.addProductAttribute(colorAttr);
         }
@@ -201,6 +203,7 @@ public class DatabaseMapper {
                     variant.getSeller().trim()
             );
             sellerAttr.setVariantId(variantId);
+            sellerAttr.setAttributeKey(null);
             sellerAttr.setAttributeType("seller_info");
             output.addProductAttribute(sellerAttr);
         }
@@ -214,6 +217,7 @@ public class DatabaseMapper {
                     variant.getWebsite().trim()
             );
             websiteAttr.setVariantId(variantId);
+            websiteAttr.setAttributeKey(null);
             websiteAttr.setAttributeType("seller_info");
             output.addProductAttribute(websiteAttr);
         }
@@ -227,6 +231,7 @@ public class DatabaseMapper {
                     variant.getCurrency().trim()
             );
             currencyAttr.setVariantId(variantId);
+            currencyAttr.setAttributeKey(null);
             currencyAttr.setAttributeType("seller_info");
             output.addProductAttribute(currencyAttr);
         }
@@ -248,7 +253,11 @@ public class DatabaseMapper {
                 ProductAttributeEntity attr = new ProductAttributeEntity();
                 attr.setId(attributeIdCounter.getAndIncrement());
                 attr.setProductId(productId);
-                attr.setAttributeName(item.getKey());
+                attr.setVariantId(null);  // Product-level attributes
+                
+                // Map label and key from scraped_raw
+                attr.setAttributeLabel(item.getLabel());  // e.g., "Prosessor"
+                attr.setAttributeKey(item.getKey());      // e.g., "processor"
                 attr.setAttributeValue(item.getValue());
                 attr.setSortOrder(sortOrder++);
                 
