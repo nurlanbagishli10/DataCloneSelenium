@@ -4,6 +4,9 @@ target/
 !**/src/test/**/target/
 .kotlin
 
+### Output files ###
+output/test_*.json
+
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
