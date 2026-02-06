@@ -1,5 +1,7 @@
 package com.ecommerce.scraper.pages;
 
+import com.ecommerce.scraper.mapper.AttributeMapper;
+import com.ecommerce.scraper.model.AttributeGroup;
 import com.ecommerce.scraper.model.Product;
 import com.ecommerce.scraper.model.ProductSpecifications;
 import com.ecommerce.scraper.model.ProductVariant;
@@ -57,6 +59,11 @@ public class ProductDetailPage {
         // Specifications
         ProductSpecifications specs = extractSpecifications();
         product.setSpecifications(specs);
+        
+        // Convert specifications to attributes format
+        AttributeMapper attributeMapper = new AttributeMapper();
+        List<AttributeGroup> attributes = attributeMapper.mapToAttributes(specs);
+        product.setAttributes(attributes);
 
         // Variantlar
         List<ProductVariant> variants = extractAllVariantCombinations();

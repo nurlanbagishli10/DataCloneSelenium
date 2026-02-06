@@ -18,6 +18,9 @@ public class Product {
     @JsonProperty("specifications")
     private ProductSpecifications specifications;
 
+    @JsonProperty("attributes")
+    private List<AttributeGroup> attributes;
+
     // Constructors
     public Product() {}
 
@@ -61,6 +64,14 @@ public class Product {
 
     public void setSpecifications(ProductSpecifications specifications) {
         this.specifications = specifications;
+    }
+
+    public List<AttributeGroup> getAttributes() {
+        return attributes;
+    }
+
+    public void setAttributes(List<AttributeGroup> attributes) {
+        this.attributes = attributes;
     }
 
     @Override
