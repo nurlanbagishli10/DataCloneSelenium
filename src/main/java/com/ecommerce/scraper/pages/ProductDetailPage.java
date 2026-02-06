@@ -39,6 +39,11 @@ public class ProductDetailPage {
 
     private static final By PROCESSOR_FIELD = By.id("smartphone_processor");
 
+    // Boolean icon detection constants
+    private static final String ICON_CLASS = "icon";
+    private static final String ICON_TRUE_VALUE = "1.00";
+    private static final String ICON_FALSE_VALUE = "0.00";
+
     // Constructor
     public ProductDetailPage(WebDriver driver) {
         this.driver = driver;
@@ -455,11 +460,11 @@ public class ProductDetailPage {
                         String valueClass = valueElement.getAttribute("class");
                         
                         String value;
-                        if (valueClass != null && valueClass.contains("icon")) {
+                        if (valueClass != null && valueClass.contains(ICON_CLASS)) {
                             // Boolean field with icon
-                            if ("1.00".equals(dataValue)) {
+                            if (ICON_TRUE_VALUE.equals(dataValue)) {
                                 value = "true";
-                            } else if ("0.00".equals(dataValue)) {
+                            } else if (ICON_FALSE_VALUE.equals(dataValue)) {
                                 value = "false";
                             } else {
                                 value = "";

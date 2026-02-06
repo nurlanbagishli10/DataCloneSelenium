@@ -21,6 +21,12 @@ public class DatabaseMapper {
 
     private static final Logger logger = LoggerFactory.getLogger(DatabaseMapper.class);
 
+    // Attribute type constants
+    private static final String ATTR_TYPE_COLOR = "color";
+    private static final String ATTR_TYPE_TEXT = "text";
+    private static final String ATTR_KEY_COLORS = "colors";
+    private static final String ATTR_KEY_COLOR = "color";
+
     private final AtomicLong brandIdCounter = new AtomicLong(1);
     private final AtomicLong productIdCounter = new AtomicLong(1);
     private final AtomicLong variantIdCounter = new AtomicLong(1);
@@ -247,10 +253,10 @@ public class DatabaseMapper {
                 attr.setSortOrder(sortOrder++);
                 
                 // Set attribute type based on key
-                if ("colors".equals(item.getKey()) || "color".equals(item.getKey())) {
-                    attr.setAttributeType("color");
+                if (ATTR_KEY_COLORS.equals(item.getKey()) || ATTR_KEY_COLOR.equals(item.getKey())) {
+                    attr.setAttributeType(ATTR_TYPE_COLOR);
                 } else {
-                    attr.setAttributeType("text");
+                    attr.setAttributeType(ATTR_TYPE_TEXT);
                 }
                 
                 output.addProductAttribute(attr);
