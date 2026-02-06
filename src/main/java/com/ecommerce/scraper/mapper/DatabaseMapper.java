@@ -447,7 +447,8 @@ public class DatabaseMapper {
      */
     private String generateVariantSku(ProductVariant variant) {
         String storage = variant.getStorage() != null ? variant.getStorage().replaceAll("[^A-Z0-9]", "") : "";
-        String color = variant.getColor() != null ? variant.getColor().toUpperCase().replaceAll("[^A-Z0-9]", "").substring(0, Math.min(3, variant.getColor().length())) : "";
+        String colorCleaned = variant.getColor() != null ? variant.getColor().toUpperCase().replaceAll("[^A-Z0-9]", "") : "";
+        String color = colorCleaned.substring(0, Math.min(3, colorCleaned.length()));
         return String.format("VAR-%s-%s-%d", storage, color, System.currentTimeMillis() % 100000);
     }
 
